@@ -1,4 +1,4 @@
-export const podcast = [
+module.exports = podcast = [
   {
     photo: "",
     name: "Podcast One",

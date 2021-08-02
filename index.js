@@ -1,7 +1,7 @@
 const express = require("express");
-const app = express.app();
+const app = express();
 
-const { podcast } = require("./data/podcast");
+const podcast = require("./data/podcast");
 
 app.get("/library", (req, res) => {
   res.json(podcast);
