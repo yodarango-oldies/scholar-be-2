@@ -4,7 +4,7 @@ const app = express();
 
 app.use(
   sors({
-    origin: "http://127.0.0.1:3000",
+    origin: "http://192.168.3.154",
   })
 );
 
