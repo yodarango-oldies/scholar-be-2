@@ -1,14 +1,28 @@
 const express = require("express");
-const cors = require("cors");
+//const cors = require("cors");
 const app = express();
 
-app.use(
-  cors({
-    origin: "http://192.168.3.154:3000",
-  })
-);
+// app.use(
+//   cors({
+//     origin: "http://192.168.3.154:3000",
+//   })
+// );
 
-const podcast = require("./data/podcast");
+//const podcast = require("./data/podcast");
+
+app.use((req, res, next) => {
+  res.header("Access-Control-Allow-Origin", "*");
+  res.header(
+    "Access-Control-Allow-Origin",
+    "Origin, X-Requested-with, Content-Type, Accept, Authorization"
+  );
+
+  if (req.method === "OPTIONS") {
+    res.header("Access-Control-Allow-Origin", "PUT, POST, PATCH, DELETE");
+    return res.status(200).json({});
+  }
+  next();
+});
 
 app.get("/library", (req, res) => {
   res.json([
