@@ -1,5 +1,6 @@
 module.exports = podcast = [
   {
+    id: "sdfds",
     thumbnail: "/images/temporary/vm.jpeg",
     podcastName: "Preaching Jesus Christ",
     host: "John Doe",
@@ -13,6 +14,7 @@ module.exports = podcast = [
     overcastLink: "https://amazon.com",
   },
   {
+    id: "svfbfbw",
     thumbnail: "/images/temporary/vm.jpeg",
     podcastName: "History in our Lord Christ Times",
     host: "Thomas Doe",
@@ -26,6 +28,7 @@ module.exports = podcast = [
     overcastLink: "https://amazon.com",
   },
   {
+    id: "sdfweoijwe4ds",
     thumbnail: "/images/temporary/vm.jpeg",
     podcastName: "Love Him More",
     host: "Allan Doe",
@@ -39,6 +42,7 @@ module.exports = podcast = [
     overcastLink: "https://amazon.com",
   },
   {
+    id: "dswwe94hdslkvlv",
     thumbnail: "/images/temporary/vm.jpeg",
     podcastName: "Aplogetics 101",
     host: "Peter Doe",
@@ -52,6 +56,7 @@ module.exports = podcast = [
     overcastLink: "https://amazon.com",
   },
   {
+    id: "sdfdvsdwds",
     thumbnail: "/images/temporary/vm.jpeg",
     podcastName: "Tehology 101",
     host: "Tonny Doe",
