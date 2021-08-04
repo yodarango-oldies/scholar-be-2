@@ -2,6 +2,7 @@ const express = require("express");
 const cors = require("cors");
 const app = express();
 const podcast = require("./data/podcast");
+const blogs = require("./data/blogs");
 
 app.use(
   cors({
@@ -10,7 +11,7 @@ app.use(
 );
 
 app.get("/library", (req, res) => {
-  res.json(podcast);
+  res.json(podcast, blogs);
 });
 
 app.listen(process.env.PORT || 8081, () => {
