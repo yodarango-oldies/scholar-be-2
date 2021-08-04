@@ -4,7 +4,7 @@ const app = express();
 const podcast = require("./data/podcast");
 const blogs = require("./data/blogs");
 const sermons = require("./data/sermons");
-const notes = require("./data/notes");
+const articles = require("./data/articles");
 const youtubeChannel = require("./data/youtubeChannels");
 const books = require("./data/books");
 const congregations = require("./data/congregaions");
@@ -20,7 +20,7 @@ app.get("/library", (req, res) => {
     podcast,
     blogs,
     sermons,
-    notes,
+    articles,
     youtubeChannel,
     books,
     congregations,
