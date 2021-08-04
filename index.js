@@ -12,7 +12,7 @@ app.use(
 );
 
 app.get("/library", (req, res) => {
-  res.json(podcast, blogs, sermons);
+  res.json({ podcast, blogs, sermons });
 });
 
 app.listen(process.env.PORT || 8081, () => {
