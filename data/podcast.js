@@ -4,6 +4,7 @@ module.exports = podcast = [
     thumbnail: "/images/temporary/vm.jpeg",
     podcastName: "Preaching Jesus Christ",
     host: "John Doe",
+    userId: "sdfds",
     reviews: ["23", "ef", "fww", "wefs"],
     stars: [0, 0, 0, 0],
     description:
@@ -18,6 +19,7 @@ module.exports = podcast = [
     thumbnail: "/images/temporary/vm.jpeg",
     podcastName: "History in our Lord Christ Times",
     host: "Thomas Doe",
+    userId: "sdfds",
     reviews: ["23", "ef", "fww", "wefs", "23", "ef", "fww", "wefs"],
     stars: [1, 1, 3, 5, 1, 1, 3, 5],
     description:
@@ -32,6 +34,7 @@ module.exports = podcast = [
     thumbnail: "/images/temporary/vm.jpeg",
     podcastName: "Love Him More",
     host: "Allan Doe",
+    userId: "sdfds",
     reviews: ["23", "ef", "fww", "wefs"],
     stars: [4, 2, 4, 3],
     description:
@@ -46,6 +49,7 @@ module.exports = podcast = [
     thumbnail: "/images/temporary/vm.jpeg",
     podcastName: "Aplogetics 101",
     host: "Peter Doe",
+    userId: "sdfds",
     reviews: ["23", "ef", "fww", "wefs", "sdf"],
     stars: [5, 5, 5, 5, 5],
     description:
@@ -60,6 +64,7 @@ module.exports = podcast = [
     thumbnail: "/images/temporary/vm.jpeg",
     podcastName: "Tehology 101",
     host: "Tonny Doe",
+    userId: "sdfds",
     reviews: ["23", "fww", "wefs"],
     stars: [1, 5, 2],
     description:
