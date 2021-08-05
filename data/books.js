@@ -1,7 +1,7 @@
 module.exports = books = [
   {
     id: "sdfds",
-    name: "Preaching Jesus Christ",
+    title: "El paise",
     author: "John Doe",
     tags: ["#BL", "#RD"],
     colors: ["rgb(1, 96, 240)", "rgb(224, 0, 0)"],
@@ -12,7 +12,7 @@ module.exports = books = [
   },
   {
     id: "sdfds",
-    name: "Preaching Jesus Christ",
+    title: "Preaching Jesus Christ",
     author: "John Doe",
     tags: ["#GRN", "#OR"],
     colors: ["rgb(21, 158, 2)", "rgb(247, 99, 0)"],
@@ -23,7 +23,7 @@ module.exports = books = [
   },
   {
     id: "sdfds",
-    name: "Preaching Jesus Christ",
+    title: "My book",
     author: "John Doe",
     tags: ["#OR", "#RD"],
     colors: ["rgb(247, 99, 0)", "rgb(224, 0, 0)"],
@@ -34,7 +34,7 @@ module.exports = books = [
   },
   {
     id: "sdfds",
-    name: "Preaching Jesus Christ",
+    title: "One more change",
     author: "John Doe",
     tags: ["#RD", "#OR"],
     colors: ["rgb(224, 0, 0)", "rgb(247, 99, 0)"],
@@ -45,7 +45,7 @@ module.exports = books = [
   },
   {
     id: "sdfds",
-    name: "Preaching Jesus Christ",
+    title: "Another book",
     author: "John Doe",
     tags: ["#BLK", "#CY"],
     colors: ["rgb(32, 32, 32)", "rgb(247, 99, 0)"],
