@@ -4,7 +4,7 @@ module.exports = books = [
     name: "Preaching Jesus Christ",
     author: "John Doe",
     tags: ["#BL", "#RD"],
-    color: ["rgb(1, 96, 240)", "rgb(224, 0, 0)"],
+    colors: ["rgb(1, 96, 240)", "rgb(224, 0, 0)"],
     reviews: ["23", "ef", "fww", "wefs"],
     stars: [0, 0, 0, 0],
     description: "",
