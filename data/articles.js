@@ -18,7 +18,7 @@ module.exports = notes = [
     userId: "2fdfqs",
     userSignature: "#XRQ",
     tags: ["#GRN", "#OR"],
-    colors: ["rgb(21, 158, 2)", "rgb(247, 99, 0)"],
+    color: ["rgb(21, 158, 2)", "rgb(247, 99, 0)"],
     title: "Medicine",
     author: "Thomas Doesth Moe",
     reviews: ["23", "ef", "fww", "wefs", "23", "ef", "fww", "wefs"],
