@@ -6,7 +6,7 @@ const podcast = require("./data/podcast");
 const blogs = require("./data/blogs");
 const sermons = require("./data/sermons");
 const articles = require("./data/articles");
-const youtubeChannel = require("./data/youtubeChannels");
+const watch = require("./data/watch");
 const books = require("./data/books");
 const congregations = require("./data/congregaions");
 
@@ -26,7 +26,7 @@ app.get("/library", (req, res) => {
     blogs,
     sermons,
     articles,
-    youtubeChannel,
+    watch,
     books,
     congregations,
   });
@@ -40,6 +40,6 @@ app.post("/recommend-new-resource", (req, res) => {
   console.log(req.body);
 });
 
-app.listen(process.env.PORT || 8081, () => {
+app.listen(process.env.PORT || 3000, () => {
   console.log("Running safely on port");
 });
