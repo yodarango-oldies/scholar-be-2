@@ -2,9 +2,9 @@ module.exports = watch = [
   {
     id: "sfsegs",
     thumbnail: "/images/temporary/channel.jpeg",
-    channelName: "Some yuotube Channel Cool",
+    title: "Some yuotube Channel Cool",
     userId: "sdfds",
-    author: "John Doe",
+    by: "John Doe",
     reviews: ["23", "ef", "fww", "wefs"],
     stars: [0, 0, 0, 0],
     description:
@@ -14,8 +14,8 @@ module.exports = watch = [
   {
     id: "sfsesdgeqgs",
     thumbnail: "/images/temporary/channel.jpeg",
-    channelName: "Explaining His Deity",
-    author: "Thomas Doe",
+    title: "Explaining His Deity",
+    by: "Thomas Doe",
     userId: "sdfds",
     reviews: ["23", "ef", "fww", "wefs", "23", "ef", "fww", "wefs"],
     stars: [1, 1, 3, 5, 5, 5, 3, 5],
@@ -26,8 +26,8 @@ module.exports = watch = [
   {
     id: "sfsweg45egs",
     thumbnail: "/images/temporary/channel.jpeg",
-    channelName: "For Such A Time as this",
-    author: "Allan Doe",
+    title: "For Such A Time as this",
+    by: "Allan Doe",
     userId: "sdfds",
     reviews: ["23", "ef", "fww", "wefs"],
     stars: [4, 2, 4, 1],
@@ -38,8 +38,8 @@ module.exports = watch = [
   {
     id: "sf3252gfdsegs",
     thumbnail: "/images/temporary/channel.jpeg",
-    channelName: "Aplogetics 101",
-    author: "Peter Doe",
+    title: "Aplogetics 101",
+    by: "Peter Doe",
     userId: "sdfds",
     reviews: ["23", "ef", "fww", "wefs", "sdf"],
     stars: [5, 0, 0, 5, 5],
@@ -50,8 +50,8 @@ module.exports = watch = [
   {
     id: "s34547fsegs",
     thumbnail: "/images/temporary/channel.jpeg",
-    channelName: "Tehology 101",
-    author: "Tonny Doe",
+    title: "Tehology 101",
+    by: "Tonny Doe",
     userId: "sdfds",
     reviews: ["23", "fww", "wefs"],
     stars: [1, 3, 0],
