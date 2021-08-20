@@ -2,6 +2,7 @@ module.exports = stories = [
   {
     id: "iufwee",
     userId: "dfdsfd",
+    userAvatar: "/images/temporary/Avatar4.png",
     stories: [
       {
         content: "This is a random quote LIGHT BLUE",
@@ -29,6 +30,7 @@ module.exports = stories = [
   {
     id: "iufwe234e",
     userId: "df324dsfd",
+    userAvatar: "/images/temporary/Avatar4.png",
     stories: [
       {
         content: "This is a random quote RED",
@@ -42,6 +44,7 @@ module.exports = stories = [
   {
     id: "iufwesf9340se",
     userId: "dfddsvsfd",
+    userAvatar: "/images/temporary/Avatar4.png",
     stories: [
       {
         content: "This is a random quote PINK",
@@ -55,6 +58,7 @@ module.exports = stories = [
   {
     id: "iufwe85858e",
     userId: "dfdsfd",
+    userAvatar: "/images/temporary/Avatar4.png",
     stories: [
       {
         content: "This is a random quote GREEN",
@@ -75,6 +79,7 @@ module.exports = stories = [
   {
     id: "iufw3333ee",
     userId: "dfdsfd",
+    userAvatar: "/images/temporary/Avatar4.png",
     stories: [
       {
         content: "This is a random quote BLACK",
