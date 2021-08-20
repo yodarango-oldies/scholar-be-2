@@ -9,6 +9,7 @@ const articles = require("./data/articles");
 const watch = require("./data/watch");
 const books = require("./data/books");
 const congregations = require("./data/congregaions");
+const stories = require("./posts/stories");
 
 const users = require("./users/users");
 
@@ -35,6 +36,11 @@ app.get("/library", (req, res) => {
 app.get("/users", (req, res) => {
   res.send(users);
 });
+
+app.get("/stories", (req, res) => {
+  res.send(stories);
+});
+
 app.post("/recommend-new-resource", (req, res) => {
   res.send(req.body);
   console.log(req.body);
