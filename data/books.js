@@ -9,7 +9,6 @@ module.exports = books = [
     stars: [1, 0, 0, 0],
     description: "",
     url: "https://amazon.com",
-    userAvatar: "/images/temporary/Avatar4.png",
   },
   {
     id: "sdfds",
@@ -21,7 +20,6 @@ module.exports = books = [
     stars: [2, 3, 4, 0],
     description: "",
     url: "https://amazon.com",
-    userAvatar: "/images/temporary/Avatar4.png",
   },
   {
     id: "sdfds",
@@ -33,7 +31,6 @@ module.exports = books = [
     stars: [0, 0, 0, 0],
     description: "",
     url: "https://amazon.com",
-    userAvatar: "/images/temporary/Avatar4.png",
   },
   {
     id: "sdfds",
@@ -45,7 +42,6 @@ module.exports = books = [
     stars: [5, 5, 5, 5],
     description: "",
     url: "https://amazon.com",
-    userAvatar: "/images/temporary/Avatar4.png",
   },
   {
     id: "sdfds",
@@ -57,6 +53,5 @@ module.exports = books = [
     stars: [0, 3, 5, 0],
     description: "",
     url: "https://amazon.com",
-    userAvatar: "/images/temporary/Avatar4.png",
   },
 ];
