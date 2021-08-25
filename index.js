@@ -10,6 +10,7 @@ const watch = require("./data/watch");
 const books = require("./data/books");
 const congregations = require("./data/congregaions");
 const stories = require("./posts/stories");
+const commentaries = require("./posts/commentaries");
 
 const users = require("./users/users");
 
@@ -46,6 +47,9 @@ app.post("/recommend-new-resource", (req, res) => {
   console.log(req.body);
 });
 
+app.get("/commentaries", (req, res) => {
+  res.send(commentaries);
+});
 app.listen(process.env.PORT || 3000, () => {
   console.log("Running safely on port");
 });
