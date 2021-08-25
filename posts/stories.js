@@ -89,7 +89,8 @@ module.exports = stories = [
         tags: ["#BLK", "#BR"],
       },
       {
-        content: "This is a random quote BROWN",
+        content:
+          "This is a random quote BROWN This is a random quote BROWN This is a random quote BROWN This is a random quote BROWN This is a random quote BROWN This is a random quote BROWN This is a random quote BROWN This is a random quote BROWN This is a random quote BROWN This is a random quote BROWN",
         by: "User Name",
         background:
           "linear-gradient(120deg, rgba(150,75,0,1) 0%, rgba(31,0,0,1) 100%)",
