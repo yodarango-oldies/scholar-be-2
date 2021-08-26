@@ -52,8 +52,16 @@ app.get("/commentaries", (req, res) => {
   res.send(commentaries);
 });
 
+app.get("/commentaries/123", (req, res) => {
+  res.send(commentaries[0].comments);
+});
+
 app.get("/thoughts", (req, res) => {
   res.send(thoughts);
+});
+
+app.get("/thoughts/123", (req, res) => {
+  res.send(thoughts[1].comments);
 });
 
 app.listen(process.env.PORT || 3000, () => {
