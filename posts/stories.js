@@ -10,6 +10,8 @@ module.exports = stories = [
         background:
           "linear-gradient(120deg, rgba(0,232,238,1) 0%, rgba(235,2,2,1) 100%)",
         tags: ["#LBL", "#BR"],
+        approves: [],
+        disapproves: ["dsds", "dsgds", "sgds", "gsgsgr"],
         comments: [
           {
             id: "dsdsweg",
@@ -130,6 +132,8 @@ Thus, then, in this title of the Deity, formed fr`,
         background:
           "linear-gradient(120deg, rgba(238,3,3,1) 0%, rgba(10,125,213,1) 100%)",
         tags: ["#RD", "#BR"],
+        approves: ["fds", "rgrw"],
+        disapproves: [],
         comments: [],
       },
     ],
@@ -145,6 +149,8 @@ Thus, then, in this title of the Deity, formed fr`,
         background:
           "linear-gradient(90deg, rgba(40,30,210,1) 0%, rgba(2,212,255,1) 100%)",
         tags: ["#PNK", "#BR"],
+        approves: [],
+        disapproves: ["gsgsgr"],
         comments: [
           {
             id: "dsdsweg",
@@ -258,6 +264,8 @@ Thus, then, in this title of the Deity, formed fr`,
         background:
           "linear-gradient(120deg, rgba(255,73,0,1) 0%, rgba(160,5,227,1) 100%)",
         tags: ["#OR", "#BR"],
+        approves: ["gsg", "dgds", "dgs", "sdgs"],
+        disapproves: ["dsds", "dsgds", "sgds", "gsgsgr"],
         comments: [],
       },
     ],
@@ -282,6 +290,8 @@ Thus, then, in this title of the Deity, formed fr`,
         background:
           "linear-gradient(120deg, rgba(150,75,0,1) 0%, rgba(31,0,0,1) 100%)",
         tags: ["#BR", "#BR"],
+        approves: ["gweg", "egw"],
+        disapproves: ["dsds"],
         comments: [
           {
             id: "dsdsweg",
@@ -381,6 +391,8 @@ Thus, then, in this title of the Deity, formed fr`,
         background:
           "linear-gradient(120deg, rgba(3,8,116,1) 0%, rgba(203,2,2,1) 100%)",
         tags: ["#DBL", "#BR"],
+        approves: [],
+        disapproves: [],
         comments: [
           {
             id: "dsdsweg",
@@ -480,6 +492,17 @@ Thus, then, in this title of the Deity, formed fr`,
         background:
           "linear-gradient(120deg, rgba(0,232,238,1) 0%, rgba(235,2,2,1) 100%)",
         tags: ["#LBL", "#BR"],
+        approves: [
+          "dsds",
+          "dsgds",
+          "sgds",
+          "gsgsgr",
+          "dsds",
+          "dsgds",
+          "sgds",
+          "gsgsgr",
+        ],
+        disapproves: ["dsds", "dsgds", "sgds", "gsgsgr"],
         comments: [],
       },
     ],
