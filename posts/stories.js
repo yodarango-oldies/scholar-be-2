@@ -18,90 +18,70 @@ module.exports = stories = [
             userId: "gdsgdsgds",
             userAvatar: "/images/temporary/Avatar4.png",
             userSignature: "#ASKTH",
-            content: `.—Not, as in John 1:1, “from eternity,” but in the beginning of this sidereal system, of which our sun, with its attendant planets, forms a part. As there never was a time when God did not exist, and as activity is an essential part of His being (John 5:17), so, probably, there was never a time when worlds did not exist; and in the process of calling them into existence when and how He willed, we may well believe that God acted in accordance with the working of some universal law, of which He is Himself the author. It was natural with St. John, when placing the same words at the commencement of his Gospel, to carry back our minds to a more absolute conceivable “beginning,” when the work of creation had not commenced, and when in the whole universe there was only God.
-God.—Heb., Elohim. A word words of Eve, so miserably disappointed in their primary application: “I have gotten a man, even Jehovah,” or Yehveh (Genesis 41). She, poor fallen creature, did not know the meaning of the words she uttered, but she had believed the promise, and for her faith’s sake the spirit of prophecy rested upon her, and she gave him on whom her hopes were fixed the title which was to grow and swell onward till all inspired truth gathered round it and into it; and at length Elohim, the Almighty, set to it His seal by calling Himself “I shall be that I shall be” (Exodus 3:14). Eve’s word is simply the third person of the verb of which Ehyeh is the first, and the correct translation of her speech is, “I have gotten a man, even he that shall be,” or “the future one.” But when God called Himself by this appellation, the word, so indefinite in her mouth, became the personal name of Israel’s covenant God.
-Thus, then, in this title of the Deity, formed fr`,
+            content: `Light Blue 1`,
           },
           {
             id: "dsd45s",
             userId: "gdsgdsgds",
             userAvatar: "/images/temporary/Avatar4.png",
             userSignature: "#ASKTH",
-            content: `.—Not, as in John 1:1, “from eternity,” but in the beginning of this sidereal system, of which our sun, with its attendant planets, forms a part. As there never was a time when God did not exist, and as activity is an essential part of His being (John 5:17), so, probably, there was never a time when worlds did not exist; and in the process of calling them into existence when and how He willed, we may well believe that God acted in accordance with the working of some universal law, of which He is Himself the author. It was natural with St. John, when placing the same words at the commencement of his Gospel, to carry back our minds to a more absolute conceivable “beginning,” when the work of creation had not commenced, and when in the whole universe there was only God.
-God.—Heb., Elohim. A word words of Eve, so miserably disappointed in their primary application: “I have gotten a man, even Jehovah,” or Yehveh (Genesis 41). She, poor fallen creature, did not know the meaning of the words she uttered, but she had believed the promise, and for her faith’s sake the spirit of prophecy rested upon her, and she gave him on whom her hopes were fixed the title which was to grow and swell onward till all inspired truth gathered round it and into it; and at length Elohim, the Almighty, set to it His seal by calling Himself “I shall be that I shall be” (Exodus 3:14). Eve’s word is simply the third person of the verb of which Ehyeh is the first, and the correct translation of her speech is, “I have gotten a man, even he that shall be,” or “the future one.” But when God called Himself by this appellation, the word, so indefinite in her mouth, became the personal name of Israel’s covenant God.
-Thus, then, in this title of the Deity, formed fr`,
+            content: `Light Blue 2`,
           },
           {
             id: "dsds79879",
             userId: "gdsgdsgds",
             userAvatar: "/images/temporary/Avatar4.png",
             userSignature: "#ASKTH",
-            content: `.—Not, as in John 1:1, “from eternity,” but in the beginning of this sidereal system, of which our sun, with its attendant planets, forms a part. As there never was a time when God did not exist, and as activity is an essential part of His being (John 5:17), so, probably, there was never a time when worlds did not exist; and in the process of calling them into existence when and how He willed, we may well believe that God acted in accordance with the working of some universal law, of which He is Himself the author. It was natural with St. John, when placing the same words at the commencement of his Gospel, to carry back our minds to a more absolute conceivable “beginning,” when the work of creation had not commenced, and when in the whole universe there was only God.
-God.—Heb., Elohim. A word words of Eve, so miserably disappointed in their primary application: “I have gotten a man, even Jehovah,” or Yehveh (Genesis 41). She, poor fallen creature, did not know the meaning of the words she uttered, but she had believed the promise, and for her faith’s sake the spirit of prophecy rested upon her, and she gave him on whom her hopes were fixed the title which was to grow and swell onward till all inspired truth gathered round it and into it; and at length Elohim, the Almighty, set to it His seal by calling Himself “I shall be that I shall be” (Exodus 3:14). Eve’s word is simply the third person of the verb of which Ehyeh is the first, and the correct translation of her speech is, “I have gotten a man, even he that shall be,” or “the future one.” But when God called Himself by this appellation, the word, so indefinite in her mouth, became the personal name of Israel’s covenant God.
-Thus, then, in this title of the Deity, formed fr`,
+            content: `Light Blue 3`,
           },
           {
             id: "dsd3479976s",
             userId: "gdsgdsgds",
             userAvatar: "/images/temporary/Avatar4.png",
             userSignature: "#ASKTH",
-            content: `.—Not, as in John 1:1, “from eternity,” but in the beginning of this sidereal system, of which our sun, with its attendant planets, forms a part. As there never was a time when God did not exist, and as activity is an essential part of His being (John 5:17), so, probably, there was never a time when worlds did not exist; and in the process of calling them into existence when and how He willed, we may well believe that God acted in accordance with the working of some universal law, of which He is Himself the author. It was natural with St. John, when placing the same words at the commencement of his Gospel, to carry back our minds to a more absolute conceivable “beginning,” when the work of creation had not commenced, and when in the whole universe there was only God.
-God.—Heb., Elohim. A word words of Eve, so miserably disappointed in their primary application: “I have gotten a man, even Jehovah,” or Yehveh (Genesis 41). She, poor fallen creature, did not know the meaning of the words she uttered, but she had believed the promise, and for her faith’s sake the spirit of prophecy rested upon her, and she gave him on whom her hopes were fixed the title which was to grow and swell onward till all inspired truth gathered round it and into it; and at length Elohim, the Almighty, set to it His seal by calling Himself “I shall be that I shall be” (Exodus 3:14). Eve’s word is simply the third person of the verb of which Ehyeh is the first, and the correct translation of her speech is, “I have gotten a man, even he that shall be,” or “the future one.” But when God called Himself by this appellation, the word, so indefinite in her mouth, became the personal name of Israel’s covenant God.
-Thus, then, in this title of the Deity, formed fr`,
+            content: `Light Blue 4`,
           },
           {
             id: "dsds12421",
             userId: "gdsgdsgds",
             userAvatar: "/images/temporary/Avatar4.png",
             userSignature: "#ASKTH",
-            content: `.—Not, as in John 1:1, “from eternity,” but in the beginning of this sidereal system, of which our sun, with its attendant planets, forms a part. As there never was a time when God did not exist, and as activity is an essential part of His being (John 5:17), so, probably, there was never a time when worlds did not exist; and in the process of calling them into existence when and how He willed, we may well believe that God acted in accordance with the working of some universal law, of which He is Himself the author. It was natural with St. John, when placing the same words at the commencement of his Gospel, to carry back our minds to a more absolute conceivable “beginning,” when the work of creation had not commenced, and when in the whole universe there was only God.
-God.—Heb., Elohim. A word words of Eve, so miserably disappointed in their primary application: “I have gotten a man, even Jehovah,” or Yehveh (Genesis 41). She, poor fallen creature, did not know the meaning of the words she uttered, but she had believed the promise, and for her faith’s sake the spirit of prophecy rested upon her, and she gave him on whom her hopes were fixed the title which was to grow and swell onward till all inspired truth gathered round it and into it; and at length Elohim, the Almighty, set to it His seal by calling Himself “I shall be that I shall be” (Exodus 3:14). Eve’s word is simply the third person of the verb of which Ehyeh is the first, and the correct translation of her speech is, “I have gotten a man, even he that shall be,” or “the future one.” But when God called Himself by this appellation, the word, so indefinite in her mouth, became the personal name of Israel’s covenant God.
-Thus, then, in this title of the Deity, formed fr`,
+            content: `Light Blue 5`,
           },
           {
             id: "dsd42353256s",
             userId: "gdsgdsgds",
             userAvatar: "/images/temporary/Avatar4.png",
             userSignature: "#ASKTH",
-            content: `.—Not, as in John 1:1, “from eternity,” but in the beginning of this sidereal system, of which our sun, with its attendant planets, forms a part. As there never was a time when God did not exist, and as activity is an essential part of His being (John 5:17), so, probably, there was never a time when worlds did not exist; and in the process of calling them into existence when and how He willed, we may well believe that God acted in accordance with the working of some universal law, of which He is Himself the author. It was natural with St. John, when placing the same words at the commencement of his Gospel, to carry back our minds to a more absolute conceivable “beginning,” when the work of creation had not commenced, and when in the whole universe there was only God.
-God.—Heb., Elohim. A word words of Eve, so miserably disappointed in their primary application: “I have gotten a man, even Jehovah,” or Yehveh (Genesis 41). She, poor fallen creature, did not know the meaning of the words she uttered, but she had believed the promise, and for her faith’s sake the spirit of prophecy rested upon her, and she gave him on whom her hopes were fixed the title which was to grow and swell onward till all inspired truth gathered round it and into it; and at length Elohim, the Almighty, set to it His seal by calling Himself “I shall be that I shall be” (Exodus 3:14). Eve’s word is simply the third person of the verb of which Ehyeh is the first, and the correct translation of her speech is, “I have gotten a man, even he that shall be,” or “the future one.” But when God called Himself by this appellation, the word, so indefinite in her mouth, became the personal name of Israel’s covenant God.
-Thus, then, in this title of the Deity, formed fr`,
+            content: `Light Blue 6`,
           },
           {
             id: "dsds6765754",
             userId: "gdsgdsgds",
             userAvatar: "/images/temporary/Avatar4.png",
             userSignature: "#ASKTH",
-            content: `.—Not, as in John 1:1, “from eternity,” but in the beginning of this sidereal system, of which our sun, with its attendant planets, forms a part. As there never was a time when God did not exist, and as activity is an essential part of His being (John 5:17), so, probably, there was never a time when worlds did not exist; and in the process of calling them into existence when and how He willed, we may well believe that God acted in accordance with the working of some universal law, of which He is Himself the author. It was natural with St. John, when placing the same words at the commencement of his Gospel, to carry back our minds to a more absolute conceivable “beginning,” when the work of creation had not commenced, and when in the whole universe there was only God.
-God.—Heb., Elohim. A word words of Eve, so miserably disappointed in their primary application: “I have gotten a man, even Jehovah,” or Yehveh (Genesis 41). She, poor fallen creature, did not know the meaning of the words she uttered, but she had believed the promise, and for her faith’s sake the spirit of prophecy rested upon her, and she gave him on whom her hopes were fixed the title which was to grow and swell onward till all inspired truth gathered round it and into it; and at length Elohim, the Almighty, set to it His seal by calling Himself “I shall be that I shall be” (Exodus 3:14). Eve’s word is simply the third person of the verb of which Ehyeh is the first, and the correct translation of her speech is, “I have gotten a man, even he that shall be,” or “the future one.” But when God called Himself by this appellation, the word, so indefinite in her mouth, became the personal name of Israel’s covenant God.
-Thus, then, in this title of the Deity, formed fr`,
+            content: `Light Blue 7`,
           },
           {
             id: "dsd23905hfs",
             userId: "gdsgdsgds",
             userAvatar: "/images/temporary/Avatar4.png",
             userSignature: "#ASKTH",
-            content: `.—Not, as in John 1:1, “from eternity,” but in the beginning of this sidereal system, of which our sun, with its attendant planets, forms a part. As there never was a time when God did not exist, and as activity is an essential part of His being (John 5:17), so, probably, there was never a time when worlds did not exist; and in the process of calling them into existence when and how He willed, we may well believe that God acted in accordance with the working of some universal law, of which He is Himself the author. It was natural with St. John, when placing the same words at the commencement of his Gospel, to carry back our minds to a more absolute conceivable “beginning,” when the work of creation had not commenced, and when in the whole universe there was only God.
-God.—Heb., Elohim. A word words of Eve, so miserably disappointed in their primary application: “I have gotten a man, even Jehovah,” or Yehveh (Genesis 41). She, poor fallen creature, did not know the meaning of the words she uttered, but she had believed the promise, and for her faith’s sake the spirit of prophecy rested upon her, and she gave him on whom her hopes were fixed the title which was to grow and swell onward till all inspired truth gathered round it and into it; and at length Elohim, the Almighty, set to it His seal by calling Himself “I shall be that I shall be” (Exodus 3:14). Eve’s word is simply the third person of the verb of which Ehyeh is the first, and the correct translation of her speech is, “I have gotten a man, even he that shall be,” or “the future one.” But when God called Himself by this appellation, the word, so indefinite in her mouth, became the personal name of Israel’s covenant God.
-Thus, then, in this title of the Deity, formed fr`,
+            content: `Light Blue 8`,
           },
           {
             id: "dsds425gds",
             userId: "gdsgdsgds",
             userAvatar: "/images/temporary/Avatar4.png",
             userSignature: "#ASKTH",
-            content: `.—Not, as in John 1:1, “from eternity,” but in the beginning of this sidereal system, of which our sun, with its attendant planets, forms a part. As there never was a time when God did not exist, and as activity is an essential part of His being (John 5:17), so, probably, there was never a time when worlds did not exist; and in the process of calling them into existence when and how He willed, we may well believe that God acted in accordance with the working of some universal law, of which He is Himself the author. It was natural with St. John, when placing the same words at the commencement of his Gospel, to carry back our minds to a more absolute conceivable “beginning,” when the work of creation had not commenced, and when in the whole universe there was only God.
-God.—Heb., Elohim. A word words of Eve, so miserably disappointed in their primary application: “I have gotten a man, even Jehovah,” or Yehveh (Genesis 41). She, poor fallen creature, did not know the meaning of the words she uttered, but she had believed the promise, and for her faith’s sake the spirit of prophecy rested upon her, and she gave him on whom her hopes were fixed the title which was to grow and swell onward till all inspired truth gathered round it and into it; and at length Elohim, the Almighty, set to it His seal by calling Himself “I shall be that I shall be” (Exodus 3:14). Eve’s word is simply the third person of the verb of which Ehyeh is the first, and the correct translation of her speech is, “I have gotten a man, even he that shall be,” or “the future one.” But when God called Himself by this appellation, the word, so indefinite in her mouth, became the personal name of Israel’s covenant God.
-Thus, then, in this title of the Deity, formed fr`,
+            content: `Light Blue 9`,
           },
           {
             id: "ds44625fefdds",
             userId: "gdsgdsgds",
             userAvatar: "/images/temporary/Avatar4.png",
             userSignature: "#ASKTH",
-            content: `.—Not, as in John 1:1, “from eternity,” but in the beginning of this sidereal system, of which our sun, with its attendant planets, forms a part. As there never was a time when God did not exist, and as activity is an essential part of His being (John 5:17), so, probably, there was never a time when worlds did not exist; and in the process of calling them into existence when and how He willed, we may well believe that God acted in accordance with the working of some universal law, of which He is Himself the author. It was natural with St. John, when placing the same words at the commencement of his Gospel, to carry back our minds to a more absolute conceivable “beginning,” when the work of creation had not commenced, and when in the whole universe there was only God.
-God.—Heb., Elohim. A word words of Eve, so miserably disappointed in their primary application: “I have gotten a man, even Jehovah,” or Yehveh (Genesis 41). She, poor fallen creature, did not know the meaning of the words she uttered, but she had believed the promise, and for her faith’s sake the spirit of prophecy rested upon her, and she gave him on whom her hopes were fixed the title which was to grow and swell onward till all inspired truth gathered round it and into it; and at length Elohim, the Almighty, set to it His seal by calling Himself “I shall be that I shall be” (Exodus 3:14). Eve’s word is simply the third person of the verb of which Ehyeh is the first, and the correct translation of her speech is, “I have gotten a man, even he that shall be,” or “the future one.” But when God called Himself by this appellation, the word, so indefinite in her mouth, became the personal name of Israel’s covenant God.
-Thus, then, in this title of the Deity, formed fr`,
+            content: `Light Blue 10`,
           },
         ],
       },
@@ -119,9 +99,7 @@ Thus, then, in this title of the Deity, formed fr`,
             userId: "gdsgdsgds",
             userAvatar: "/images/temporary/Avatar4.png",
             userSignature: "#ASKTH",
-            content: `.—Not, as in John 1:1, “from eternity,” but in the beginning of this sidereal system, of which our sun, with its attendant planets, forms a part. As there never was a time when God did not exist, and as activity is an essential part of His being (John 5:17), so, probably, there was never a time when worlds did not exist; and in the process of calling them into existence when and how He willed, we may well believe that God acted in accordance with the working of some universal law, of which He is Himself the author. It was natural with St. John, when placing the same words at the commencement of his Gospel, to carry back our minds to a more absolute conceivable “beginning,” when the work of creation had not commenced, and when in the whole universe there was only God.
-God.—Heb., Elohim. A word words of Eve, so miserably disappointed in their primary application: “I have gotten a man, even Jehovah,” or Yehveh (Genesis 41). She, poor fallen creature, did not know the meaning of the words she uttered, but she had believed the promise, and for her faith’s sake the spirit of prophecy rested upon her, and she gave him on whom her hopes were fixed the title which was to grow and swell onward till all inspired truth gathered round it and into it; and at length Elohim, the Almighty, set to it His seal by calling Himself “I shall be that I shall be” (Exodus 3:14). Eve’s word is simply the third person of the verb of which Ehyeh is the first, and the correct translation of her speech is, “I have gotten a man, even he that shall be,” or “the future one.” But when God called Himself by this appellation, the word, so indefinite in her mouth, became the personal name of Israel’s covenant God.
-Thus, then, in this title of the Deity, formed fr`,
+            content: `Yellow 1`,
           },
         ],
       },
@@ -139,9 +117,7 @@ Thus, then, in this title of the Deity, formed fr`,
             userId: "gdsgdsgds",
             userAvatar: "/images/temporary/Avatar4.png",
             userSignature: "#ASKTH",
-            content: `.—Not, as in John 1:1, “from eternity,” but in the beginning of this sidereal system, of which our sun, with its attendant planets, forms a part. As there never was a time when God did not exist, and as activity is an essential part of His being (John 5:17), so, probably, there was never a time when worlds did not exist; and in the process of calling them into existence when and how He willed, we may well believe that God acted in accordance with the working of some universal law, of which He is Himself the author. It was natural with St. John, when placing the same words at the commencement of his Gospel, to carry back our minds to a more absolute conceivable “beginning,” when the work of creation had not commenced, and when in the whole universe there was only God.
-God.—Heb., Elohim. A word words of Eve, so miserably disappointed in their primary application: “I have gotten a man, even Jehovah,” or Yehveh (Genesis 41). She, poor fallen creature, did not know the meaning of the words she uttered, but she had believed the promise, and for her faith’s sake the spirit of prophecy rested upon her, and she gave him on whom her hopes were fixed the title which was to grow and swell onward till all inspired truth gathered round it and into it; and at length Elohim, the Almighty, set to it His seal by calling Himself “I shall be that I shall be” (Exodus 3:14). Eve’s word is simply the third person of the verb of which Ehyeh is the first, and the correct translation of her speech is, “I have gotten a man, even he that shall be,” or “the future one.” But when God called Himself by this appellation, the word, so indefinite in her mouth, became the personal name of Israel’s covenant God.
-Thus, then, in this title of the Deity, formed fr`,
+            content: `Purple 1`,
           },
         ],
       },
@@ -183,90 +159,70 @@ Thus, then, in this title of the Deity, formed fr`,
             userId: "gdsgdsgds",
             userAvatar: "/images/temporary/Avatar4.png",
             userSignature: "#ASKTH",
-            content: `.—Not, as in John 1:1, “from eternity,” but in the beginning of this sidereal system, of which our sun, with its attendant planets, forms a part. As there never was a time when God did not exist, and as activity is an essential part of His being (John 5:17), so, probably, there was never a time when worlds did not exist; and in the process of calling them into existence when and how He willed, we may well believe that God acted in accordance with the working of some universal law, of which He is Himself the author. It was natural with St. John, when placing the same words at the commencement of his Gospel, to carry back our minds to a more absolute conceivable “beginning,” when the work of creation had not commenced, and when in the whole universe there was only God.
-God.—Heb., Elohim. A word words of Eve, so miserably disappointed in their primary application: “I have gotten a man, even Jehovah,” or Yehveh (Genesis 41). She, poor fallen creature, did not know the meaning of the words she uttered, but she had believed the promise, and for her faith’s sake the spirit of prophecy rested upon her, and she gave him on whom her hopes were fixed the title which was to grow and swell onward till all inspired truth gathered round it and into it; and at length Elohim, the Almighty, set to it His seal by calling Himself “I shall be that I shall be” (Exodus 3:14). Eve’s word is simply the third person of the verb of which Ehyeh is the first, and the correct translation of her speech is, “I have gotten a man, even he that shall be,” or “the future one.” But when God called Himself by this appellation, the word, so indefinite in her mouth, became the personal name of Israel’s covenant God.
-Thus, then, in this title of the Deity, formed fr`,
+            content: `Pink 1`,
           },
           {
             id: "dsd45s",
             userId: "gdsgdsgds",
             userAvatar: "/images/temporary/Avatar4.png",
             userSignature: "#ASKTH",
-            content: `.—Not, as in John 1:1, “from eternity,” but in the beginning of this sidereal system, of which our sun, with its attendant planets, forms a part. As there never was a time when God did not exist, and as activity is an essential part of His being (John 5:17), so, probably, there was never a time when worlds did not exist; and in the process of calling them into existence when and how He willed, we may well believe that God acted in accordance with the working of some universal law, of which He is Himself the author. It was natural with St. John, when placing the same words at the commencement of his Gospel, to carry back our minds to a more absolute conceivable “beginning,” when the work of creation had not commenced, and when in the whole universe there was only God.
-God.—Heb., Elohim. A word words of Eve, so miserably disappointed in their primary application: “I have gotten a man, even Jehovah,” or Yehveh (Genesis 41). She, poor fallen creature, did not know the meaning of the words she uttered, but she had believed the promise, and for her faith’s sake the spirit of prophecy rested upon her, and she gave him on whom her hopes were fixed the title which was to grow and swell onward till all inspired truth gathered round it and into it; and at length Elohim, the Almighty, set to it His seal by calling Himself “I shall be that I shall be” (Exodus 3:14). Eve’s word is simply the third person of the verb of which Ehyeh is the first, and the correct translation of her speech is, “I have gotten a man, even he that shall be,” or “the future one.” But when God called Himself by this appellation, the word, so indefinite in her mouth, became the personal name of Israel’s covenant God.
-Thus, then, in this title of the Deity, formed fr`,
+            content: `Pink 2`,
           },
           {
             id: "dsds79879",
             userId: "gdsgdsgds",
             userAvatar: "/images/temporary/Avatar4.png",
             userSignature: "#ASKTH",
-            content: `.—Not, as in John 1:1, “from eternity,” but in the beginning of this sidereal system, of which our sun, with its attendant planets, forms a part. As there never was a time when God did not exist, and as activity is an essential part of His being (John 5:17), so, probably, there was never a time when worlds did not exist; and in the process of calling them into existence when and how He willed, we may well believe that God acted in accordance with the working of some universal law, of which He is Himself the author. It was natural with St. John, when placing the same words at the commencement of his Gospel, to carry back our minds to a more absolute conceivable “beginning,” when the work of creation had not commenced, and when in the whole universe there was only God.
-God.—Heb., Elohim. A word words of Eve, so miserably disappointed in their primary application: “I have gotten a man, even Jehovah,” or Yehveh (Genesis 41). She, poor fallen creature, did not know the meaning of the words she uttered, but she had believed the promise, and for her faith’s sake the spirit of prophecy rested upon her, and she gave him on whom her hopes were fixed the title which was to grow and swell onward till all inspired truth gathered round it and into it; and at length Elohim, the Almighty, set to it His seal by calling Himself “I shall be that I shall be” (Exodus 3:14). Eve’s word is simply the third person of the verb of which Ehyeh is the first, and the correct translation of her speech is, “I have gotten a man, even he that shall be,” or “the future one.” But when God called Himself by this appellation, the word, so indefinite in her mouth, became the personal name of Israel’s covenant God.
-Thus, then, in this title of the Deity, formed fr`,
+            content: `Pink 3`,
           },
           {
             id: "dsd3479976s",
             userId: "gdsgdsgds",
             userAvatar: "/images/temporary/Avatar4.png",
             userSignature: "#ASKTH",
-            content: `.—Not, as in John 1:1, “from eternity,” but in the beginning of this sidereal system, of which our sun, with its attendant planets, forms a part. As there never was a time when God did not exist, and as activity is an essential part of His being (John 5:17), so, probably, there was never a time when worlds did not exist; and in the process of calling them into existence when and how He willed, we may well believe that God acted in accordance with the working of some universal law, of which He is Himself the author. It was natural with St. John, when placing the same words at the commencement of his Gospel, to carry back our minds to a more absolute conceivable “beginning,” when the work of creation had not commenced, and when in the whole universe there was only God.
-God.—Heb., Elohim. A word words of Eve, so miserably disappointed in their primary application: “I have gotten a man, even Jehovah,” or Yehveh (Genesis 41). She, poor fallen creature, did not know the meaning of the words she uttered, but she had believed the promise, and for her faith’s sake the spirit of prophecy rested upon her, and she gave him on whom her hopes were fixed the title which was to grow and swell onward till all inspired truth gathered round it and into it; and at length Elohim, the Almighty, set to it His seal by calling Himself “I shall be that I shall be” (Exodus 3:14). Eve’s word is simply the third person of the verb of which Ehyeh is the first, and the correct translation of her speech is, “I have gotten a man, even he that shall be,” or “the future one.” But when God called Himself by this appellation, the word, so indefinite in her mouth, became the personal name of Israel’s covenant God.
-Thus, then, in this title of the Deity, formed fr`,
+            content: `Pink 4`,
           },
           {
             id: "dsds12421",
             userId: "gdsgdsgds",
             userAvatar: "/images/temporary/Avatar4.png",
             userSignature: "#ASKTH",
-            content: `.—Not, as in John 1:1, “from eternity,” but in the beginning of this sidereal system, of which our sun, with its attendant planets, forms a part. As there never was a time when God did not exist, and as activity is an essential part of His being (John 5:17), so, probably, there was never a time when worlds did not exist; and in the process of calling them into existence when and how He willed, we may well believe that God acted in accordance with the working of some universal law, of which He is Himself the author. It was natural with St. John, when placing the same words at the commencement of his Gospel, to carry back our minds to a more absolute conceivable “beginning,” when the work of creation had not commenced, and when in the whole universe there was only God.
-God.—Heb., Elohim. A word words of Eve, so miserably disappointed in their primary application: “I have gotten a man, even Jehovah,” or Yehveh (Genesis 41). She, poor fallen creature, did not know the meaning of the words she uttered, but she had believed the promise, and for her faith’s sake the spirit of prophecy rested upon her, and she gave him on whom her hopes were fixed the title which was to grow and swell onward till all inspired truth gathered round it and into it; and at length Elohim, the Almighty, set to it His seal by calling Himself “I shall be that I shall be” (Exodus 3:14). Eve’s word is simply the third person of the verb of which Ehyeh is the first, and the correct translation of her speech is, “I have gotten a man, even he that shall be,” or “the future one.” But when God called Himself by this appellation, the word, so indefinite in her mouth, became the personal name of Israel’s covenant God.
-Thus, then, in this title of the Deity, formed fr`,
+            content: `Pink 5`,
           },
           {
             id: "dsd42353256s",
             userId: "gdsgdsgds",
             userAvatar: "/images/temporary/Avatar4.png",
             userSignature: "#ASKTH",
-            content: `.—Not, as in John 1:1, “from eternity,” but in the beginning of this sidereal system, of which our sun, with its attendant planets, forms a part. As there never was a time when God did not exist, and as activity is an essential part of His being (John 5:17), so, probably, there was never a time when worlds did not exist; and in the process of calling them into existence when and how He willed, we may well believe that God acted in accordance with the working of some universal law, of which He is Himself the author. It was natural with St. John, when placing the same words at the commencement of his Gospel, to carry back our minds to a more absolute conceivable “beginning,” when the work of creation had not commenced, and when in the whole universe there was only God.
-God.—Heb., Elohim. A word words of Eve, so miserably disappointed in their primary application: “I have gotten a man, even Jehovah,” or Yehveh (Genesis 41). She, poor fallen creature, did not know the meaning of the words she uttered, but she had believed the promise, and for her faith’s sake the spirit of prophecy rested upon her, and she gave him on whom her hopes were fixed the title which was to grow and swell onward till all inspired truth gathered round it and into it; and at length Elohim, the Almighty, set to it His seal by calling Himself “I shall be that I shall be” (Exodus 3:14). Eve’s word is simply the third person of the verb of which Ehyeh is the first, and the correct translation of her speech is, “I have gotten a man, even he that shall be,” or “the future one.” But when God called Himself by this appellation, the word, so indefinite in her mouth, became the personal name of Israel’s covenant God.
-Thus, then, in this title of the Deity, formed fr`,
+            content: `Pink 6`,
           },
           {
             id: "dsds6765754",
             userId: "gdsgdsgds",
             userAvatar: "/images/temporary/Avatar4.png",
             userSignature: "#ASKTH",
-            content: `.—Not, as in John 1:1, “from eternity,” but in the beginning of this sidereal system, of which our sun, with its attendant planets, forms a part. As there never was a time when God did not exist, and as activity is an essential part of His being (John 5:17), so, probably, there was never a time when worlds did not exist; and in the process of calling them into existence when and how He willed, we may well believe that God acted in accordance with the working of some universal law, of which He is Himself the author. It was natural with St. John, when placing the same words at the commencement of his Gospel, to carry back our minds to a more absolute conceivable “beginning,” when the work of creation had not commenced, and when in the whole universe there was only God.
-God.—Heb., Elohim. A word words of Eve, so miserably disappointed in their primary application: “I have gotten a man, even Jehovah,” or Yehveh (Genesis 41). She, poor fallen creature, did not know the meaning of the words she uttered, but she had believed the promise, and for her faith’s sake the spirit of prophecy rested upon her, and she gave him on whom her hopes were fixed the title which was to grow and swell onward till all inspired truth gathered round it and into it; and at length Elohim, the Almighty, set to it His seal by calling Himself “I shall be that I shall be” (Exodus 3:14). Eve’s word is simply the third person of the verb of which Ehyeh is the first, and the correct translation of her speech is, “I have gotten a man, even he that shall be,” or “the future one.” But when God called Himself by this appellation, the word, so indefinite in her mouth, became the personal name of Israel’s covenant God.
-Thus, then, in this title of the Deity, formed fr`,
+            content: `Pink 7`,
           },
           {
             id: "dsd23905hfs",
             userId: "gdsgdsgds",
             userAvatar: "/images/temporary/Avatar4.png",
             userSignature: "#ASKTH",
-            content: `.—Not, as in John 1:1, “from eternity,” but in the beginning of this sidereal system, of which our sun, with its attendant planets, forms a part. As there never was a time when God did not exist, and as activity is an essential part of His being (John 5:17), so, probably, there was never a time when worlds did not exist; and in the process of calling them into existence when and how He willed, we may well believe that God acted in accordance with the working of some universal law, of which He is Himself the author. It was natural with St. John, when placing the same words at the commencement of his Gospel, to carry back our minds to a more absolute conceivable “beginning,” when the work of creation had not commenced, and when in the whole universe there was only God.
-God.—Heb., Elohim. A word words of Eve, so miserably disappointed in their primary application: “I have gotten a man, even Jehovah,” or Yehveh (Genesis 41). She, poor fallen creature, did not know the meaning of the words she uttered, but she had believed the promise, and for her faith’s sake the spirit of prophecy rested upon her, and she gave him on whom her hopes were fixed the title which was to grow and swell onward till all inspired truth gathered round it and into it; and at length Elohim, the Almighty, set to it His seal by calling Himself “I shall be that I shall be” (Exodus 3:14). Eve’s word is simply the third person of the verb of which Ehyeh is the first, and the correct translation of her speech is, “I have gotten a man, even he that shall be,” or “the future one.” But when God called Himself by this appellation, the word, so indefinite in her mouth, became the personal name of Israel’s covenant God.
-Thus, then, in this title of the Deity, formed fr`,
+            content: `Pink 8`,
           },
           {
             id: "dsds425gds",
             userId: "gdsgdsgds",
             userAvatar: "/images/temporary/Avatar4.png",
             userSignature: "#ASKTH",
-            content: `.—Not, as in John 1:1, “from eternity,” but in the beginning of this sidereal system, of which our sun, with its attendant planets, forms a part. As there never was a time when God did not exist, and as activity is an essential part of His being (John 5:17), so, probably, there was never a time when worlds did not exist; and in the process of calling them into existence when and how He willed, we may well believe that God acted in accordance with the working of some universal law, of which He is Himself the author. It was natural with St. John, when placing the same words at the commencement of his Gospel, to carry back our minds to a more absolute conceivable “beginning,” when the work of creation had not commenced, and when in the whole universe there was only God.
-God.—Heb., Elohim. A word words of Eve, so miserably disappointed in their primary application: “I have gotten a man, even Jehovah,” or Yehveh (Genesis 41). She, poor fallen creature, did not know the meaning of the words she uttered, but she had believed the promise, and for her faith’s sake the spirit of prophecy rested upon her, and she gave him on whom her hopes were fixed the title which was to grow and swell onward till all inspired truth gathered round it and into it; and at length Elohim, the Almighty, set to it His seal by calling Himself “I shall be that I shall be” (Exodus 3:14). Eve’s word is simply the third person of the verb of which Ehyeh is the first, and the correct translation of her speech is, “I have gotten a man, even he that shall be,” or “the future one.” But when God called Himself by this appellation, the word, so indefinite in her mouth, became the personal name of Israel’s covenant God.
-Thus, then, in this title of the Deity, formed fr`,
+            content: `Pink 9`,
           },
           {
             id: "ds44625fefdds",
             userId: "gdsgdsgds",
             userAvatar: "/images/temporary/Avatar4.png",
             userSignature: "#ASKTH",
-            content: `.—Not, as in John 1:1, “from eternity,” but in the beginning of this sidereal system, of which our sun, with its attendant planets, forms a part. As there never was a time when God did not exist, and as activity is an essential part of His being (John 5:17), so, probably, there was never a time when worlds did not exist; and in the process of calling them into existence when and how He willed, we may well believe that God acted in accordance with the working of some universal law, of which He is Himself the author. It was natural with St. John, when placing the same words at the commencement of his Gospel, to carry back our minds to a more absolute conceivable “beginning,” when the work of creation had not commenced, and when in the whole universe there was only God.
-God.—Heb., Elohim. A word words of Eve, so miserably disappointed in their primary application: “I have gotten a man, even Jehovah,” or Yehveh (Genesis 41). She, poor fallen creature, did not know the meaning of the words she uttered, but she had believed the promise, and for her faith’s sake the spirit of prophecy rested upon her, and she gave him on whom her hopes were fixed the title which was to grow and swell onward till all inspired truth gathered round it and into it; and at length Elohim, the Almighty, set to it His seal by calling Himself “I shall be that I shall be” (Exodus 3:14). Eve’s word is simply the third person of the verb of which Ehyeh is the first, and the correct translation of her speech is, “I have gotten a man, even he that shall be,” or “the future one.” But when God called Himself by this appellation, the word, so indefinite in her mouth, became the personal name of Israel’s covenant God.
-Thus, then, in this title of the Deity, formed fr`,
+            content: `Pink 10`,
           },
         ],
       },
@@ -291,9 +247,7 @@ Thus, then, in this title of the Deity, formed fr`,
             userId: "gdsgdsgds",
             userAvatar: "/images/temporary/Avatar4.png",
             userSignature: "#ASKTH",
-            content: `.—Not, as in John 1:1, “from eternity,” but in the beginning of this sidereal system, of which our sun, with its attendant planets, forms a part. As there never was a time when God did not exist, and as activity is an essential part of His being (John 5:17), so, probably, there was never a time when worlds did not exist; and in the process of calling them into existence when and how He willed, we may well believe that God acted in accordance with the working of some universal law, of which He is Himself the author. It was natural with St. John, when placing the same words at the commencement of his Gospel, to carry back our minds to a more absolute conceivable “beginning,” when the work of creation had not commenced, and when in the whole universe there was only God.
-God.—Heb., Elohim. A word words of Eve, so miserably disappointed in their primary application: “I have gotten a man, even Jehovah,” or Yehveh (Genesis 41). She, poor fallen creature, did not know the meaning of the words she uttered, but she had believed the promise, and for her faith’s sake the spirit of prophecy rested upon her, and she gave him on whom her hopes were fixed the title which was to grow and swell onward till all inspired truth gathered round it and into it; and at length Elohim, the Almighty, set to it His seal by calling Himself “I shall be that I shall be” (Exodus 3:14). Eve’s word is simply the third person of the verb of which Ehyeh is the first, and the correct translation of her speech is, “I have gotten a man, even he that shall be,” or “the future one.” But when God called Himself by this appellation, the word, so indefinite in her mouth, became the personal name of Israel’s covenant God.
-Thus, then, in this title of the Deity, formed fr`,
+            content: `Green 1`,
           },
         ],
       },
@@ -339,90 +293,70 @@ Thus, then, in this title of the Deity, formed fr`,
             userId: "gdsgdsgds",
             userAvatar: "/images/temporary/Avatar4.png",
             userSignature: "#ASKTH",
-            content: `.—Not, as in John 1:1, “from eternity,” but in the beginning of this sidereal system, of which our sun, with its attendant planets, forms a part. As there never was a time when God did not exist, and as activity is an essential part of His being (John 5:17), so, probably, there was never a time when worlds did not exist; and in the process of calling them into existence when and how He willed, we may well believe that God acted in accordance with the working of some universal law, of which He is Himself the author. It was natural with St. John, when placing the same words at the commencement of his Gospel, to carry back our minds to a more absolute conceivable “beginning,” when the work of creation had not commenced, and when in the whole universe there was only God.
-God.—Heb., Elohim. A word words of Eve, so miserably disappointed in their primary application: “I have gotten a man, even Jehovah,” or Yehveh (Genesis 41). She, poor fallen creature, did not know the meaning of the words she uttered, but she had believed the promise, and for her faith’s sake the spirit of prophecy rested upon her, and she gave him on whom her hopes were fixed the title which was to grow and swell onward till all inspired truth gathered round it and into it; and at length Elohim, the Almighty, set to it His seal by calling Himself “I shall be that I shall be” (Exodus 3:14). Eve’s word is simply the third person of the verb of which Ehyeh is the first, and the correct translation of her speech is, “I have gotten a man, even he that shall be,” or “the future one.” But when God called Himself by this appellation, the word, so indefinite in her mouth, became the personal name of Israel’s covenant God.
-Thus, then, in this title of the Deity, formed fr`,
+            content: `Brown 1`,
           },
           {
             id: "dsd45s",
             userId: "gdsgdsgds",
             userAvatar: "/images/temporary/Avatar4.png",
             userSignature: "#ASKTH",
-            content: `.—Not, as in John 1:1, “from eternity,” but in the beginning of this sidereal system, of which our sun, with its attendant planets, forms a part. As there never was a time when God did not exist, and as activity is an essential part of His being (John 5:17), so, probably, there was never a time when worlds did not exist; and in the process of calling them into existence when and how He willed, we may well believe that God acted in accordance with the working of some universal law, of which He is Himself the author. It was natural with St. John, when placing the same words at the commencement of his Gospel, to carry back our minds to a more absolute conceivable “beginning,” when the work of creation had not commenced, and when in the whole universe there was only God.
-God.—Heb., Elohim. A word words of Eve, so miserably disappointed in their primary application: “I have gotten a man, even Jehovah,” or Yehveh (Genesis 41). She, poor fallen creature, did not know the meaning of the words she uttered, but she had believed the promise, and for her faith’s sake the spirit of prophecy rested upon her, and she gave him on whom her hopes were fixed the title which was to grow and swell onward till all inspired truth gathered round it and into it; and at length Elohim, the Almighty, set to it His seal by calling Himself “I shall be that I shall be” (Exodus 3:14). Eve’s word is simply the third person of the verb of which Ehyeh is the first, and the correct translation of her speech is, “I have gotten a man, even he that shall be,” or “the future one.” But when God called Himself by this appellation, the word, so indefinite in her mouth, became the personal name of Israel’s covenant God.
-Thus, then, in this title of the Deity, formed fr`,
+            content: `brown 2`,
           },
           {
             id: "dsds79879",
             userId: "gdsgdsgds",
             userAvatar: "/images/temporary/Avatar4.png",
             userSignature: "#ASKTH",
-            content: `.—Not, as in John 1:1, “from eternity,” but in the beginning of this sidereal system, of which our sun, with its attendant planets, forms a part. As there never was a time when God did not exist, and as activity is an essential part of His being (John 5:17), so, probably, there was never a time when worlds did not exist; and in the process of calling them into existence when and how He willed, we may well believe that God acted in accordance with the working of some universal law, of which He is Himself the author. It was natural with St. John, when placing the same words at the commencement of his Gospel, to carry back our minds to a more absolute conceivable “beginning,” when the work of creation had not commenced, and when in the whole universe there was only God.
-God.—Heb., Elohim. A word words of Eve, so miserably disappointed in their primary application: “I have gotten a man, even Jehovah,” or Yehveh (Genesis 41). She, poor fallen creature, did not know the meaning of the words she uttered, but she had believed the promise, and for her faith’s sake the spirit of prophecy rested upon her, and she gave him on whom her hopes were fixed the title which was to grow and swell onward till all inspired truth gathered round it and into it; and at length Elohim, the Almighty, set to it His seal by calling Himself “I shall be that I shall be” (Exodus 3:14). Eve’s word is simply the third person of the verb of which Ehyeh is the first, and the correct translation of her speech is, “I have gotten a man, even he that shall be,” or “the future one.” But when God called Himself by this appellation, the word, so indefinite in her mouth, became the personal name of Israel’s covenant God.
-Thus, then, in this title of the Deity, formed fr`,
+            content: `Brown 3`,
           },
           {
             id: "dsd3479976s",
             userId: "gdsgdsgds",
             userAvatar: "/images/temporary/Avatar4.png",
             userSignature: "#ASKTH",
-            content: `.—Not, as in John 1:1, “from eternity,” but in the beginning of this sidereal system, of which our sun, with its attendant planets, forms a part. As there never was a time when God did not exist, and as activity is an essential part of His being (John 5:17), so, probably, there was never a time when worlds did not exist; and in the process of calling them into existence when and how He willed, we may well believe that God acted in accordance with the working of some universal law, of which He is Himself the author. It was natural with St. John, when placing the same words at the commencement of his Gospel, to carry back our minds to a more absolute conceivable “beginning,” when the work of creation had not commenced, and when in the whole universe there was only God.
-God.—Heb., Elohim. A word words of Eve, so miserably disappointed in their primary application: “I have gotten a man, even Jehovah,” or Yehveh (Genesis 41). She, poor fallen creature, did not know the meaning of the words she uttered, but she had believed the promise, and for her faith’s sake the spirit of prophecy rested upon her, and she gave him on whom her hopes were fixed the title which was to grow and swell onward till all inspired truth gathered round it and into it; and at length Elohim, the Almighty, set to it His seal by calling Himself “I shall be that I shall be” (Exodus 3:14). Eve’s word is simply the third person of the verb of which Ehyeh is the first, and the correct translation of her speech is, “I have gotten a man, even he that shall be,” or “the future one.” But when God called Himself by this appellation, the word, so indefinite in her mouth, became the personal name of Israel’s covenant God.
-Thus, then, in this title of the Deity, formed fr`,
+            content: `Brown 4`,
           },
           {
             id: "dsds12421",
             userId: "gdsgdsgds",
             userAvatar: "/images/temporary/Avatar4.png",
             userSignature: "#ASKTH",
-            content: `.—Not, as in John 1:1, “from eternity,” but in the beginning of this sidereal system, of which our sun, with its attendant planets, forms a part. As there never was a time when God did not exist, and as activity is an essential part of His being (John 5:17), so, probably, there was never a time when worlds did not exist; and in the process of calling them into existence when and how He willed, we may well believe that God acted in accordance with the working of some universal law, of which He is Himself the author. It was natural with St. John, when placing the same words at the commencement of his Gospel, to carry back our minds to a more absolute conceivable “beginning,” when the work of creation had not commenced, and when in the whole universe there was only God.
-God.—Heb., Elohim. A word words of Eve, so miserably disappointed in their primary application: “I have gotten a man, even Jehovah,” or Yehveh (Genesis 41). She, poor fallen creature, did not know the meaning of the words she uttered, but she had believed the promise, and for her faith’s sake the spirit of prophecy rested upon her, and she gave him on whom her hopes were fixed the title which was to grow and swell onward till all inspired truth gathered round it and into it; and at length Elohim, the Almighty, set to it His seal by calling Himself “I shall be that I shall be” (Exodus 3:14). Eve’s word is simply the third person of the verb of which Ehyeh is the first, and the correct translation of her speech is, “I have gotten a man, even he that shall be,” or “the future one.” But when God called Himself by this appellation, the word, so indefinite in her mouth, became the personal name of Israel’s covenant God.
-Thus, then, in this title of the Deity, formed fr`,
+            content: `Brown 5`,
           },
           {
             id: "dsd42353256s",
             userId: "gdsgdsgds",
             userAvatar: "/images/temporary/Avatar4.png",
             userSignature: "#ASKTH",
-            content: `.—Not, as in John 1:1, “from eternity,” but in the beginning of this sidereal system, of which our sun, with its attendant planets, forms a part. As there never was a time when God did not exist, and as activity is an essential part of His being (John 5:17), so, probably, there was never a time when worlds did not exist; and in the process of calling them into existence when and how He willed, we may well believe that God acted in accordance with the working of some universal law, of which He is Himself the author. It was natural with St. John, when placing the same words at the commencement of his Gospel, to carry back our minds to a more absolute conceivable “beginning,” when the work of creation had not commenced, and when in the whole universe there was only God.
-God.—Heb., Elohim. A word words of Eve, so miserably disappointed in their primary application: “I have gotten a man, even Jehovah,” or Yehveh (Genesis 41). She, poor fallen creature, did not know the meaning of the words she uttered, but she had believed the promise, and for her faith’s sake the spirit of prophecy rested upon her, and she gave him on whom her hopes were fixed the title which was to grow and swell onward till all inspired truth gathered round it and into it; and at length Elohim, the Almighty, set to it His seal by calling Himself “I shall be that I shall be” (Exodus 3:14). Eve’s word is simply the third person of the verb of which Ehyeh is the first, and the correct translation of her speech is, “I have gotten a man, even he that shall be,” or “the future one.” But when God called Himself by this appellation, the word, so indefinite in her mouth, became the personal name of Israel’s covenant God.
-Thus, then, in this title of the Deity, formed fr`,
+            content: `Brown 6`,
           },
           {
             id: "dsds6765754",
             userId: "gdsgdsgds",
             userAvatar: "/images/temporary/Avatar4.png",
             userSignature: "#ASKTH",
-            content: `.—Not, as in John 1:1, “from eternity,” but in the beginning of this sidereal system, of which our sun, with its attendant planets, forms a part. As there never was a time when God did not exist, and as activity is an essential part of His being (John 5:17), so, probably, there was never a time when worlds did not exist; and in the process of calling them into existence when and how He willed, we may well believe that God acted in accordance with the working of some universal law, of which He is Himself the author. It was natural with St. John, when placing the same words at the commencement of his Gospel, to carry back our minds to a more absolute conceivable “beginning,” when the work of creation had not commenced, and when in the whole universe there was only God.
-God.—Heb., Elohim. A word words of Eve, so miserably disappointed in their primary application: “I have gotten a man, even Jehovah,” or Yehveh (Genesis 41). She, poor fallen creature, did not know the meaning of the words she uttered, but she had believed the promise, and for her faith’s sake the spirit of prophecy rested upon her, and she gave him on whom her hopes were fixed the title which was to grow and swell onward till all inspired truth gathered round it and into it; and at length Elohim, the Almighty, set to it His seal by calling Himself “I shall be that I shall be” (Exodus 3:14). Eve’s word is simply the third person of the verb of which Ehyeh is the first, and the correct translation of her speech is, “I have gotten a man, even he that shall be,” or “the future one.” But when God called Himself by this appellation, the word, so indefinite in her mouth, became the personal name of Israel’s covenant God.
-Thus, then, in this title of the Deity, formed fr`,
+            content: `Brown 7`,
           },
           {
             id: "dsd23905hfs",
             userId: "gdsgdsgds",
             userAvatar: "/images/temporary/Avatar4.png",
             userSignature: "#ASKTH",
-            content: `.—Not, as in John 1:1, “from eternity,” but in the beginning of this sidereal system, of which our sun, with its attendant planets, forms a part. As there never was a time when God did not exist, and as activity is an essential part of His being (John 5:17), so, probably, there was never a time when worlds did not exist; and in the process of calling them into existence when and how He willed, we may well believe that God acted in accordance with the working of some universal law, of which He is Himself the author. It was natural with St. John, when placing the same words at the commencement of his Gospel, to carry back our minds to a more absolute conceivable “beginning,” when the work of creation had not commenced, and when in the whole universe there was only God.
-God.—Heb., Elohim. A word words of Eve, so miserably disappointed in their primary application: “I have gotten a man, even Jehovah,” or Yehveh (Genesis 41). She, poor fallen creature, did not know the meaning of the words she uttered, but she had believed the promise, and for her faith’s sake the spirit of prophecy rested upon her, and she gave him on whom her hopes were fixed the title which was to grow and swell onward till all inspired truth gathered round it and into it; and at length Elohim, the Almighty, set to it His seal by calling Himself “I shall be that I shall be” (Exodus 3:14). Eve’s word is simply the third person of the verb of which Ehyeh is the first, and the correct translation of her speech is, “I have gotten a man, even he that shall be,” or “the future one.” But when God called Himself by this appellation, the word, so indefinite in her mouth, became the personal name of Israel’s covenant God.
-Thus, then, in this title of the Deity, formed fr`,
+            content: `Brown 8`,
           },
           {
             id: "dsds425gds",
             userId: "gdsgdsgds",
             userAvatar: "/images/temporary/Avatar4.png",
             userSignature: "#ASKTH",
-            content: `.—Not, as in John 1:1, “from eternity,” but in the beginning of this sidereal system, of which our sun, with its attendant planets, forms a part. As there never was a time when God did not exist, and as activity is an essential part of His being (John 5:17), so, probably, there was never a time when worlds did not exist; and in the process of calling them into existence when and how He willed, we may well believe that God acted in accordance with the working of some universal law, of which He is Himself the author. It was natural with St. John, when placing the same words at the commencement of his Gospel, to carry back our minds to a more absolute conceivable “beginning,” when the work of creation had not commenced, and when in the whole universe there was only God.
-God.—Heb., Elohim. A word words of Eve, so miserably disappointed in their primary application: “I have gotten a man, even Jehovah,” or Yehveh (Genesis 41). She, poor fallen creature, did not know the meaning of the words she uttered, but she had believed the promise, and for her faith’s sake the spirit of prophecy rested upon her, and she gave him on whom her hopes were fixed the title which was to grow and swell onward till all inspired truth gathered round it and into it; and at length Elohim, the Almighty, set to it His seal by calling Himself “I shall be that I shall be” (Exodus 3:14). Eve’s word is simply the third person of the verb of which Ehyeh is the first, and the correct translation of her speech is, “I have gotten a man, even he that shall be,” or “the future one.” But when God called Himself by this appellation, the word, so indefinite in her mouth, became the personal name of Israel’s covenant God.
-Thus, then, in this title of the Deity, formed fr`,
+            content: `Brown 9`,
           },
           {
             id: "ds44625fefdds",
             userId: "gdsgdsgds",
             userAvatar: "/images/temporary/Avatar4.png",
             userSignature: "#ASKTH",
-            content: `.—Not, as in John 1:1, “from eternity,” but in the beginning of this sidereal system, of which our sun, with its attendant planets, forms a part. As there never was a time when God did not exist, and as activity is an essential part of His being (John 5:17), so, probably, there was never a time when worlds did not exist; and in the process of calling them into existence when and how He willed, we may well believe that God acted in accordance with the working of some universal law, of which He is Himself the author. It was natural with St. John, when placing the same words at the commencement of his Gospel, to carry back our minds to a more absolute conceivable “beginning,” when the work of creation had not commenced, and when in the whole universe there was only God.
-God.—Heb., Elohim. A word words of Eve, so miserably disappointed in their primary application: “I have gotten a man, even Jehovah,” or Yehveh (Genesis 41). She, poor fallen creature, did not know the meaning of the words she uttered, but she had believed the promise, and for her faith’s sake the spirit of prophecy rested upon her, and she gave him on whom her hopes were fixed the title which was to grow and swell onward till all inspired truth gathered round it and into it; and at length Elohim, the Almighty, set to it His seal by calling Himself “I shall be that I shall be” (Exodus 3:14). Eve’s word is simply the third person of the verb of which Ehyeh is the first, and the correct translation of her speech is, “I have gotten a man, even he that shall be,” or “the future one.” But when God called Himself by this appellation, the word, so indefinite in her mouth, became the personal name of Israel’s covenant God.
-Thus, then, in this title of the Deity, formed fr`,
+            content: `Brown 10`,
           },
         ],
       },
@@ -440,90 +374,70 @@ Thus, then, in this title of the Deity, formed fr`,
             userId: "gdsgdsgds",
             userAvatar: "/images/temporary/Avatar4.png",
             userSignature: "#ASKTH",
-            content: `.—Not, as in John 1:1, “from eternity,” but in the beginning of this sidereal system, of which our sun, with its attendant planets, forms a part. As there never was a time when God did not exist, and as activity is an essential part of His being (John 5:17), so, probably, there was never a time when worlds did not exist; and in the process of calling them into existence when and how He willed, we may well believe that God acted in accordance with the working of some universal law, of which He is Himself the author. It was natural with St. John, when placing the same words at the commencement of his Gospel, to carry back our minds to a more absolute conceivable “beginning,” when the work of creation had not commenced, and when in the whole universe there was only God.
-God.—Heb., Elohim. A word words of Eve, so miserably disappointed in their primary application: “I have gotten a man, even Jehovah,” or Yehveh (Genesis 41). She, poor fallen creature, did not know the meaning of the words she uttered, but she had believed the promise, and for her faith’s sake the spirit of prophecy rested upon her, and she gave him on whom her hopes were fixed the title which was to grow and swell onward till all inspired truth gathered round it and into it; and at length Elohim, the Almighty, set to it His seal by calling Himself “I shall be that I shall be” (Exodus 3:14). Eve’s word is simply the third person of the verb of which Ehyeh is the first, and the correct translation of her speech is, “I have gotten a man, even he that shall be,” or “the future one.” But when God called Himself by this appellation, the word, so indefinite in her mouth, became the personal name of Israel’s covenant God.
-Thus, then, in this title of the Deity, formed fr`,
+            content: `Dark Blue 1`,
           },
           {
             id: "dsd45s",
             userId: "gdsgdsgds",
             userAvatar: "/images/temporary/Avatar4.png",
             userSignature: "#ASKTH",
-            content: `.—Not, as in John 1:1, “from eternity,” but in the beginning of this sidereal system, of which our sun, with its attendant planets, forms a part. As there never was a time when God did not exist, and as activity is an essential part of His being (John 5:17), so, probably, there was never a time when worlds did not exist; and in the process of calling them into existence when and how He willed, we may well believe that God acted in accordance with the working of some universal law, of which He is Himself the author. It was natural with St. John, when placing the same words at the commencement of his Gospel, to carry back our minds to a more absolute conceivable “beginning,” when the work of creation had not commenced, and when in the whole universe there was only God.
-God.—Heb., Elohim. A word words of Eve, so miserably disappointed in their primary application: “I have gotten a man, even Jehovah,” or Yehveh (Genesis 41). She, poor fallen creature, did not know the meaning of the words she uttered, but she had believed the promise, and for her faith’s sake the spirit of prophecy rested upon her, and she gave him on whom her hopes were fixed the title which was to grow and swell onward till all inspired truth gathered round it and into it; and at length Elohim, the Almighty, set to it His seal by calling Himself “I shall be that I shall be” (Exodus 3:14). Eve’s word is simply the third person of the verb of which Ehyeh is the first, and the correct translation of her speech is, “I have gotten a man, even he that shall be,” or “the future one.” But when God called Himself by this appellation, the word, so indefinite in her mouth, became the personal name of Israel’s covenant God.
-Thus, then, in this title of the Deity, formed fr`,
+            content: `Dark Blue 2`,
           },
           {
             id: "dsds79879",
             userId: "gdsgdsgds",
             userAvatar: "/images/temporary/Avatar4.png",
             userSignature: "#ASKTH",
-            content: `.—Not, as in John 1:1, “from eternity,” but in the beginning of this sidereal system, of which our sun, with its attendant planets, forms a part. As there never was a time when God did not exist, and as activity is an essential part of His being (John 5:17), so, probably, there was never a time when worlds did not exist; and in the process of calling them into existence when and how He willed, we may well believe that God acted in accordance with the working of some universal law, of which He is Himself the author. It was natural with St. John, when placing the same words at the commencement of his Gospel, to carry back our minds to a more absolute conceivable “beginning,” when the work of creation had not commenced, and when in the whole universe there was only God.
-God.—Heb., Elohim. A word words of Eve, so miserably disappointed in their primary application: “I have gotten a man, even Jehovah,” or Yehveh (Genesis 41). She, poor fallen creature, did not know the meaning of the words she uttered, but she had believed the promise, and for her faith’s sake the spirit of prophecy rested upon her, and she gave him on whom her hopes were fixed the title which was to grow and swell onward till all inspired truth gathered round it and into it; and at length Elohim, the Almighty, set to it His seal by calling Himself “I shall be that I shall be” (Exodus 3:14). Eve’s word is simply the third person of the verb of which Ehyeh is the first, and the correct translation of her speech is, “I have gotten a man, even he that shall be,” or “the future one.” But when God called Himself by this appellation, the word, so indefinite in her mouth, became the personal name of Israel’s covenant God.
-Thus, then, in this title of the Deity, formed fr`,
+            content: `Dark Blue 3`,
           },
           {
             id: "dsd3479976s",
             userId: "gdsgdsgds",
             userAvatar: "/images/temporary/Avatar4.png",
             userSignature: "#ASKTH",
-            content: `.—Not, as in John 1:1, “from eternity,” but in the beginning of this sidereal system, of which our sun, with its attendant planets, forms a part. As there never was a time when God did not exist, and as activity is an essential part of His being (John 5:17), so, probably, there was never a time when worlds did not exist; and in the process of calling them into existence when and how He willed, we may well believe that God acted in accordance with the working of some universal law, of which He is Himself the author. It was natural with St. John, when placing the same words at the commencement of his Gospel, to carry back our minds to a more absolute conceivable “beginning,” when the work of creation had not commenced, and when in the whole universe there was only God.
-God.—Heb., Elohim. A word words of Eve, so miserably disappointed in their primary application: “I have gotten a man, even Jehovah,” or Yehveh (Genesis 41). She, poor fallen creature, did not know the meaning of the words she uttered, but she had believed the promise, and for her faith’s sake the spirit of prophecy rested upon her, and she gave him on whom her hopes were fixed the title which was to grow and swell onward till all inspired truth gathered round it and into it; and at length Elohim, the Almighty, set to it His seal by calling Himself “I shall be that I shall be” (Exodus 3:14). Eve’s word is simply the third person of the verb of which Ehyeh is the first, and the correct translation of her speech is, “I have gotten a man, even he that shall be,” or “the future one.” But when God called Himself by this appellation, the word, so indefinite in her mouth, became the personal name of Israel’s covenant God.
-Thus, then, in this title of the Deity, formed fr`,
+            content: `Dark Blue 4`,
           },
           {
             id: "dsds12421",
             userId: "gdsgdsgds",
             userAvatar: "/images/temporary/Avatar4.png",
             userSignature: "#ASKTH",
-            content: `.—Not, as in John 1:1, “from eternity,” but in the beginning of this sidereal system, of which our sun, with its attendant planets, forms a part. As there never was a time when God did not exist, and as activity is an essential part of His being (John 5:17), so, probably, there was never a time when worlds did not exist; and in the process of calling them into existence when and how He willed, we may well believe that God acted in accordance with the working of some universal law, of which He is Himself the author. It was natural with St. John, when placing the same words at the commencement of his Gospel, to carry back our minds to a more absolute conceivable “beginning,” when the work of creation had not commenced, and when in the whole universe there was only God.
-God.—Heb., Elohim. A word words of Eve, so miserably disappointed in their primary application: “I have gotten a man, even Jehovah,” or Yehveh (Genesis 41). She, poor fallen creature, did not know the meaning of the words she uttered, but she had believed the promise, and for her faith’s sake the spirit of prophecy rested upon her, and she gave him on whom her hopes were fixed the title which was to grow and swell onward till all inspired truth gathered round it and into it; and at length Elohim, the Almighty, set to it His seal by calling Himself “I shall be that I shall be” (Exodus 3:14). Eve’s word is simply the third person of the verb of which Ehyeh is the first, and the correct translation of her speech is, “I have gotten a man, even he that shall be,” or “the future one.” But when God called Himself by this appellation, the word, so indefinite in her mouth, became the personal name of Israel’s covenant God.
-Thus, then, in this title of the Deity, formed fr`,
+            content: `Dark Blue 5`,
           },
           {
             id: "dsd42353256s",
             userId: "gdsgdsgds",
             userAvatar: "/images/temporary/Avatar4.png",
             userSignature: "#ASKTH",
-            content: `.—Not, as in John 1:1, “from eternity,” but in the beginning of this sidereal system, of which our sun, with its attendant planets, forms a part. As there never was a time when God did not exist, and as activity is an essential part of His being (John 5:17), so, probably, there was never a time when worlds did not exist; and in the process of calling them into existence when and how He willed, we may well believe that God acted in accordance with the working of some universal law, of which He is Himself the author. It was natural with St. John, when placing the same words at the commencement of his Gospel, to carry back our minds to a more absolute conceivable “beginning,” when the work of creation had not commenced, and when in the whole universe there was only God.
-God.—Heb., Elohim. A word words of Eve, so miserably disappointed in their primary application: “I have gotten a man, even Jehovah,” or Yehveh (Genesis 41). She, poor fallen creature, did not know the meaning of the words she uttered, but she had believed the promise, and for her faith’s sake the spirit of prophecy rested upon her, and she gave him on whom her hopes were fixed the title which was to grow and swell onward till all inspired truth gathered round it and into it; and at length Elohim, the Almighty, set to it His seal by calling Himself “I shall be that I shall be” (Exodus 3:14). Eve’s word is simply the third person of the verb of which Ehyeh is the first, and the correct translation of her speech is, “I have gotten a man, even he that shall be,” or “the future one.” But when God called Himself by this appellation, the word, so indefinite in her mouth, became the personal name of Israel’s covenant God.
-Thus, then, in this title of the Deity, formed fr`,
+            content: `Dark Blue 6`,
           },
           {
             id: "dsds6765754",
             userId: "gdsgdsgds",
             userAvatar: "/images/temporary/Avatar4.png",
             userSignature: "#ASKTH",
-            content: `.—Not, as in John 1:1, “from eternity,” but in the beginning of this sidereal system, of which our sun, with its attendant planets, forms a part. As there never was a time when God did not exist, and as activity is an essential part of His being (John 5:17), so, probably, there was never a time when worlds did not exist; and in the process of calling them into existence when and how He willed, we may well believe that God acted in accordance with the working of some universal law, of which He is Himself the author. It was natural with St. John, when placing the same words at the commencement of his Gospel, to carry back our minds to a more absolute conceivable “beginning,” when the work of creation had not commenced, and when in the whole universe there was only God.
-God.—Heb., Elohim. A word words of Eve, so miserably disappointed in their primary application: “I have gotten a man, even Jehovah,” or Yehveh (Genesis 41). She, poor fallen creature, did not know the meaning of the words she uttered, but she had believed the promise, and for her faith’s sake the spirit of prophecy rested upon her, and she gave him on whom her hopes were fixed the title which was to grow and swell onward till all inspired truth gathered round it and into it; and at length Elohim, the Almighty, set to it His seal by calling Himself “I shall be that I shall be” (Exodus 3:14). Eve’s word is simply the third person of the verb of which Ehyeh is the first, and the correct translation of her speech is, “I have gotten a man, even he that shall be,” or “the future one.” But when God called Himself by this appellation, the word, so indefinite in her mouth, became the personal name of Israel’s covenant God.
-Thus, then, in this title of the Deity, formed fr`,
+            content: `Dark Blue 7`,
           },
           {
             id: "dsd23905hfs",
             userId: "gdsgdsgds",
             userAvatar: "/images/temporary/Avatar4.png",
             userSignature: "#ASKTH",
-            content: `.—Not, as in John 1:1, “from eternity,” but in the beginning of this sidereal system, of which our sun, with its attendant planets, forms a part. As there never was a time when God did not exist, and as activity is an essential part of His being (John 5:17), so, probably, there was never a time when worlds did not exist; and in the process of calling them into existence when and how He willed, we may well believe that God acted in accordance with the working of some universal law, of which He is Himself the author. It was natural with St. John, when placing the same words at the commencement of his Gospel, to carry back our minds to a more absolute conceivable “beginning,” when the work of creation had not commenced, and when in the whole universe there was only God.
-God.—Heb., Elohim. A word words of Eve, so miserably disappointed in their primary application: “I have gotten a man, even Jehovah,” or Yehveh (Genesis 41). She, poor fallen creature, did not know the meaning of the words she uttered, but she had believed the promise, and for her faith’s sake the spirit of prophecy rested upon her, and she gave him on whom her hopes were fixed the title which was to grow and swell onward till all inspired truth gathered round it and into it; and at length Elohim, the Almighty, set to it His seal by calling Himself “I shall be that I shall be” (Exodus 3:14). Eve’s word is simply the third person of the verb of which Ehyeh is the first, and the correct translation of her speech is, “I have gotten a man, even he that shall be,” or “the future one.” But when God called Himself by this appellation, the word, so indefinite in her mouth, became the personal name of Israel’s covenant God.
-Thus, then, in this title of the Deity, formed fr`,
+            content: `Dark Blue 8`,
           },
           {
             id: "dsds425gds",
             userId: "gdsgdsgds",
             userAvatar: "/images/temporary/Avatar4.png",
             userSignature: "#ASKTH",
-            content: `.—Not, as in John 1:1, “from eternity,” but in the beginning of this sidereal system, of which our sun, with its attendant planets, forms a part. As there never was a time when God did not exist, and as activity is an essential part of His being (John 5:17), so, probably, there was never a time when worlds did not exist; and in the process of calling them into existence when and how He willed, we may well believe that God acted in accordance with the working of some universal law, of which He is Himself the author. It was natural with St. John, when placing the same words at the commencement of his Gospel, to carry back our minds to a more absolute conceivable “beginning,” when the work of creation had not commenced, and when in the whole universe there was only God.
-God.—Heb., Elohim. A word words of Eve, so miserably disappointed in their primary application: “I have gotten a man, even Jehovah,” or Yehveh (Genesis 41). She, poor fallen creature, did not know the meaning of the words she uttered, but she had believed the promise, and for her faith’s sake the spirit of prophecy rested upon her, and she gave him on whom her hopes were fixed the title which was to grow and swell onward till all inspired truth gathered round it and into it; and at length Elohim, the Almighty, set to it His seal by calling Himself “I shall be that I shall be” (Exodus 3:14). Eve’s word is simply the third person of the verb of which Ehyeh is the first, and the correct translation of her speech is, “I have gotten a man, even he that shall be,” or “the future one.” But when God called Himself by this appellation, the word, so indefinite in her mouth, became the personal name of Israel’s covenant God.
-Thus, then, in this title of the Deity, formed fr`,
+            content: `Dark Blue 9`,
           },
           {
             id: "ds44625fefdds",
             userId: "gdsgdsgds",
             userAvatar: "/images/temporary/Avatar4.png",
             userSignature: "#ASKTH",
-            content: `.—Not, as in John 1:1, “from eternity,” but in the beginning of this sidereal system, of which our sun, with its attendant planets, forms a part. As there never was a time when God did not exist, and as activity is an essential part of His being (John 5:17), so, probably, there was never a time when worlds did not exist; and in the process of calling them into existence when and how He willed, we may well believe that God acted in accordance with the working of some universal law, of which He is Himself the author. It was natural with St. John, when placing the same words at the commencement of his Gospel, to carry back our minds to a more absolute conceivable “beginning,” when the work of creation had not commenced, and when in the whole universe there was only God.
-God.—Heb., Elohim. A word words of Eve, so miserably disappointed in their primary application: “I have gotten a man, even Jehovah,” or Yehveh (Genesis 41). She, poor fallen creature, did not know the meaning of the words she uttered, but she had believed the promise, and for her faith’s sake the spirit of prophecy rested upon her, and she gave him on whom her hopes were fixed the title which was to grow and swell onward till all inspired truth gathered round it and into it; and at length Elohim, the Almighty, set to it His seal by calling Himself “I shall be that I shall be” (Exodus 3:14). Eve’s word is simply the third person of the verb of which Ehyeh is the first, and the correct translation of her speech is, “I have gotten a man, even he that shall be,” or “the future one.” But when God called Himself by this appellation, the word, so indefinite in her mouth, became the personal name of Israel’s covenant God.
-Thus, then, in this title of the Deity, formed fr`,
+            content: `Dark Blue 10`,
           },
         ],
       },
