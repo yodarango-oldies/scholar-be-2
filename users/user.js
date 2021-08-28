@@ -1,0 +1,15 @@
+module.exports = user = {
+  id: "w56gd",
+  name: "Joey",
+  lastName: "Zat",
+  signature: "#TGDH-SAF",
+  avatar: "/images/temporary/Avatar4.png",
+  trusted: true,
+  likes: 34,
+  dislikes: 232,
+  posts: 23,
+  commentaries: 234,
+  quotes: 23,
+  thoughts: 67,
+  sermons: 34,
+};
