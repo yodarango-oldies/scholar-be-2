@@ -12,4 +12,5 @@ module.exports = user = {
   quotes: 23,
   thoughts: 67,
   sermons: 34,
+  reliability: 99,
 };
