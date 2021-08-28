@@ -62,7 +62,7 @@ module.exports = congregations = [
   {
     id: "s34547fsegs",
     logo: "/images/temporary/logo.png",
-    channelName: "Eagle Bend",
+    name: "Eagle Bend",
     pastor: "Tonny Doe",
     userId: "sdfds",
     address: "1331 William Blount Drive",
