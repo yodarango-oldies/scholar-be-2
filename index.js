@@ -12,6 +12,7 @@ const congregations = require("./data/congregaions");
 const stories = require("./posts/stories");
 const commentaries = require("./posts/commentaries");
 const thoughts = require("./posts/thoughts");
+const user = require("./users/user");
 
 const users = require("./users/users");
 
@@ -62,6 +63,10 @@ app.get("/thoughts", (req, res) => {
 
 app.get("/thoughts/123", (req, res) => {
   res.send(thoughts[1].comments);
+});
+
+app.get("/users/123", (req, res) => {
+  res.send(user);
 });
 
 app.listen(process.env.PORT || 3000, () => {
