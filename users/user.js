@@ -13,4 +13,7 @@ module.exports = user = {
   thoughts: 67,
   sermons: 34,
   reliability: 99,
+  gender: "male",
+  church: "FAC",
+  job: "Engineer",
 };
