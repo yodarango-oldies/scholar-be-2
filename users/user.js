@@ -17,4 +17,5 @@ module.exports = user = {
   church: "FAC",
   job: "Engineer",
   favoriteVerse: "1 Peter 1:8",
+  ministry: "Drummer",
 };
