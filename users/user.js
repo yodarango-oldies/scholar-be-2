@@ -16,4 +16,5 @@ module.exports = user = {
   gender: "male",
   church: "FAC",
   job: "Engineer",
+  favoriteVerse: "1 Peter 1:8",
 };
