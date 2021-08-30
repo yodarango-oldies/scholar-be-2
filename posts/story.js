@@ -1,5 +1,6 @@
 module.exports = story = [
   {
+    id: "dgsfg",
     content: "This is a random quote LIGHT BLUE",
     by: "User Name",
     background:
@@ -81,6 +82,7 @@ module.exports = story = [
     ],
   },
   {
+    id: "dgsf32g",
     content: "This is a random quote YELLOW",
     by: "User Name",
     background:
@@ -99,6 +101,7 @@ module.exports = story = [
     ],
   },
   {
+    id: "dg2334sfg",
     content: "This is a random quote PURPLE",
     by: "User Name",
     background:
