@@ -2,7 +2,7 @@ module.exports = story = [
   {
     id: "dgsfg",
     content: "This is a random quote LIGHT BLUE",
-    by: "User Name",
+    by: "#MLFDL-S-DG",
     background:
       "linear-gradient(120deg, rgba(0,232,238,1) 0%, rgba(235,2,2,1) 100%)",
     tags: ["#LBL", "#BR"],

@@ -73,6 +73,10 @@ app.get("/users/123", (req, res) => {
 app.get("/story", (req, res) => {
   res.send(story);
 });
+
+app.get("/my-story", (req, res) => {
+  res.send(user);
+});
 app.listen(process.env.PORT || 3000, () => {
   console.log("Running safely on port");
 });
