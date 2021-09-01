@@ -14,6 +14,7 @@ const commentaries = require("./posts/commentaries");
 const thoughts = require("./posts/thoughts");
 const user = require("./users/user");
 const story = require("./posts/story");
+const notifications = require("./notifications/notifications");
 
 const users = require("./users/users");
 
@@ -77,6 +78,11 @@ app.get("/story", (req, res) => {
 app.get("/my-story", (req, res) => {
   res.send(user);
 });
+
+app.get("/notifications", (req, res) => {
+  res.send(notifications);
+});
+
 app.listen(process.env.PORT || 3000, () => {
   console.log("Running safely on port");
 });
