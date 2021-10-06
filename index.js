@@ -1,6 +1,7 @@
 const express = require("express");
 const cors = require("cors");
 const app = express();
+const { dbConnection, Podcast, Sermon } = require("./db");
 
 const podcast = require("./data/podcast");
 const blogs = require("./data/blogs");
@@ -83,6 +84,36 @@ app.get("/notifications", (req, res) => {
   res.send(notifications);
 });
 
-app.listen(process.env.PORT || 3000, () => {
+// app.get("/new-podcast", async (req, res) => {
+//   const newPodcast = {
+//     thumbnail: "String",
+//     userId: "String",
+//     host: "String!",
+//     userAvatar: "String!",
+//     podcastName: "String!",
+//     description: "String!",
+//     appleLink: "String!",
+//     spotifyLink: "String!",
+//     googleLink: "String!",
+//     overcastLink: "String!",
+//   };
+
+//   try {
+//     const pod = new Podcast(newPodcast);
+//     await pod.save();
+//     res.send("success");
+//   } catch (error) {
+//     console.error(error);
+//   }
+// });
+
+app.get("/sermon/:id", async (req, res) => {
+  try {
+    console.log(req.params);
+    const sermon = await Sermon.find({ userId: `${req.params.id}` });
+    res.send(sermon);
+  } catch (error) {}
+});
+app.listen(process.env.PORT || 3001, () => {
   console.log("Running safely on port");
 });
