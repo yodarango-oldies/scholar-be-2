@@ -1,7 +1,12 @@
+//// NOde js
+const path = require("path");
+const fs = require("fs");
+const publicF = path.join(__dirname, "public/images/library/anthony-mangun");
+
 const express = require("express");
 const cors = require("cors");
 const app = express();
-const { dbConnection, Podcast, Sermon } = require("./db");
+const { dbConnection, Podcast, Sermon, Congregation } = require("./db");
 
 const podcast = require("./data/podcast");
 const blogs = require("./data/blogs");
@@ -16,10 +21,21 @@ const thoughts = require("./posts/thoughts");
 const user = require("./users/user");
 const story = require("./posts/story");
 const notifications = require("./notifications/notifications");
+const newCongragation = require("./content/create-congregations");
+
+//////  helpers
+const myTime = require("./helpers/myTime.js");
+const sermonsbyJVM = require("./mongoBckp/sermonsbyJVM");
 
 const users = require("./users/users");
+const fullTime = require("./helpers/myTime.js");
 
 app.use(express.json());
+app.use(express.static("public"));
+
+// Set View's
+app.set("views", "./views");
+app.set("view engine", "ejs");
 
 app.use(
   cors({
@@ -27,7 +43,7 @@ app.use(
   })
 );
 
-app.get("/library", (req, res) => {
+/*app.get("/library", (req, res) => {
   res.json({
     podcast,
     blogs,
@@ -114,6 +130,161 @@ app.get("/sermon/:id", async (req, res) => {
     res.send(sermon);
   } catch (error) {}
 });
+*/
+// app.get("/create-congregations", (req, res) => {
+//   newCongragation.map(async (congregation) => {
+//     const newCong = new Congregation({
+//       date: Date.now(),
+//       addedOn: myTime(),
+//       ...congregation,
+//     });
+//     console.log("done!");
+//     await newCong.save();
+//   });
+// });
+// const images = [];
+// fs.readdir(publicF, (err, files) => {
+//   // if (err) {
+//   //   console.log(err);
+//   // }
+//   files.forEach((file) => {
+//     images.push(file);
+//   });
+// });
+
+app.get("/", async (req, res) => {
+  try {
+    let sermons = await Sermon.find({
+      userId: "61814fad7da48f62e22723b9",
+    }).sort({ date: 1 });
+    // sermons.forEach(async (sermon, index) => {
+    //   const firsthalf = sermon.thumbnail.split("library/")[0];
+    //   const secondhalf = sermon.thumbnail.split("library/")[1];
+    //   const complete = `${firsthalf}library/j-vernon-mcgee/`;
+    //   const join = complete + secondhalf;
+    //   await Sermon.updateOne(
+    //     { _id: sermon._id },
+    //     { $set: { thumbnail: `${join}` } }
+    //   );
+    //   console.log(`${index} done`);
+    // });
+    // const filtered = sermons.filter(
+    //   (sermon) => !sermon.thumbnail.includes("j-vernon-mcgee")
+    // );
+    // res.send(filtered);
+    res.render("index", { sermons });
+  } catch (error) {
+    console.log(error);
+  }
+});
+
+app.get("/tool", (req, res) => {
+  res.render("tool");
+});
+
+app.post("/data", async (req, res) => {
+  console.log(req.body.length);
+  req.body.forEach(async (vid, index) => {
+    const newSermon = new Sermon({
+      date: Date.now(),
+      userId: "61814fad7da48f62e22723b9",
+      title: vid.video.info.title
+        .replace("Kenneth Carpenter", "")
+        .replace("Carpenter", "")
+        .replace("Kenny", "")
+        .replace("Rev.", "")
+        .replace("Bro.", "")
+        .replace(":", "-")
+        .replace("Bishop", "")
+        .replace("Pastor", "")
+        .replace('"', ""),
+      thumbnail:
+        "/images/library/kenneth-carpenter/" +
+        vid.video.info.title
+          .replace(":", "-")
+          .replace("Kenneth Carpenter", "")
+          .replace("Carpenter", "")
+          .replace("Kenny", "")
+          .replace("Rev.", "-")
+          .replace("Bro.", "-")
+          .replace(":", "-")
+          .replace("Bishop", "-")
+          .replace("Pastor", "-")
+          .replace('"', "-")
+          .replace(" ", "-")
+          .replace("?", "")
+          .split(" ")
+          .join("-") +
+        ".png",
+      addedOnDate: fullTime(), // date uploaded
+      sermonUrl: vid.video.link, // file body or url
+      currentRanking: 0,
+      categoryTags: [], // categories of the sermon
+      tagColors: [], // color of backg to be applied
+      description: "",
+    });
+
+    try {
+      await newSermon.save();
+      console.log(index);
+    } catch (error) {
+      console.log(error);
+    }
+  });
+});
+
+// app.post("/data-pl", async (req, res) => {
+//   console.log(req.body.length);
+//   req.body.forEach(async (vid, index) => {
+//     const newSermon = new Sermon({
+//       date: Date.now(),
+//       userId: "61814fad7da48f62e22723b9",
+//       title: vid.title
+//         .replace("Kenneth Carpenter", "")
+//         .replace("Carpenter", "")
+//         .replace("Kenny", "")
+//         .replace("Rev.", "")
+//         .replace("Bro.", "")
+//         .replace(":", "-")
+//         .replace("-", "")
+//         .replace("Bishop", "")
+//         .replace("Pastor", "")
+//         .replace('"', ""),
+//       thumbnail:
+//         "/images/library/kenneth-carpenter/" +
+//         vid.title
+//           .replace(":", "-")
+//           .replace("Kenneth Carpenter", "")
+//           .replace("Carpenter", "")
+//           .replace("Kenny", "")
+//           .replace("Rev.", "-")
+//           .replace("Bro.", "-")
+//           .replace(":", "-")
+//           .replace("Bishop", "-")
+//           .replace("Pastor", "-")
+//           .replace('"', "-")
+//           .replace("-", "")
+//           .replace(" ", "-")
+//           .replace("?", "")
+//           .split(" ")
+//           .join("-") +
+//         ".png",
+//       addedOnDate: fullTime(), // date uploaded
+//       sermonUrl: `https://www.youtube.com/watch?v=${vid.resourceId.videoId}`, // file body or url
+//       currentRanking: 0,
+//       categoryTags: [], // categories of the sermon
+//       tagColors: [], // color of backg to be applied
+//       description: "",
+//     });
+//     try {
+//       await newSermon.save();
+//       console.log(index);
+//     } catch (error) {
+//       console.log(error);
+//     }
+//   });
+// });
+
 app.listen(process.env.PORT || 3001, () => {
   console.log("Running safely on port");
 });

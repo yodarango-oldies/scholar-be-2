@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <button onclick="sendData()">SEND DATA</button>
+    <button onclick="sendDataPl()" style="background-color: green">
+      SEND PL
+    </button>
+  </body>
+  <script>
+    const data = [];
+
+    const array = [
+      "https://youtu.be/zPhNAmA0BXc?t=3137",
+
+      "https://youtu.be/yTSprWGKtUU?t=4192",
+
+      "https://youtu.be/QVK9Qf_XnXg?t=2530",
+
+      "https://youtu.be/ZR17t2cvWag?t=2634",
+
+      "https://youtu.be/B5KdhWrdTgY?t=2434",
+
+      "https://youtu.be/GLiCtzf2eSI?t=3255",
+
+      "https://youtu.be/GXG2F3MLGZI?t=2520",
+
+      "https://youtu.be/ciMV0Cshof0?t=3063",
+
+      "https://youtu.be/QLm9nb0CzGQ?t=2963",
+
+      "https://youtu.be/dy9kkWliXVE?t=3040",
+
+      "https://youtu.be/ZLvJ2s3zoZE?t=3360",
+
+      "https://youtu.be/SPfITntqans?t=3091",
+
+      "https://youtu.be/wk4mPUZwdgg?t=3224",
+
+      "https://youtu.be/NiO6t5O_e-I?t=2990",
+
+      "https://youtu.be/9za5uU2XRII?t=3475",
+
+      "https://youtu.be/ffKB7thbS8k?t=2259",
+
+      "https://youtu.be/JIKssjtXegU?t=3463",
+
+      "https://youtu.be/eSMQUwdjSzc?t=2677",
+
+      "https://youtu.be/clHlCACUUKA?t=3003",
+
+      "https://youtu.be/e83xeS5Ae-g?t=3631",
+
+      "https://youtu.be/PQXwOiMjtWA?t=3485",
+
+      "https://youtu.be/rpDic6YEF7o?t=3097",
+
+      "https://youtu.be/hgSuQOP_2MA?t=3656",
+
+      "https://youtu.be/wOX3m-yBtcQ?t=2915",
+
+      "https://youtu.be/OC2tUiPJFwM?t=3896",
+
+      "https://youtu.be/QBLms5fP3QA?t=1442",
+
+      "https://youtu.be/sMzCGptaaps?t=3458",
+
+      "https://youtu.be/wCENz4MvZfI?t=2318",
+
+      "https://youtu.be/_ygLMKVvQjI?t=3222",
+
+      "https://youtu.be/-VH9AGgpaOI?t=1568",
+
+      "https://youtu.be/9JhIETnFO-I?t=3378",
+
+      "https://youtu.be/usdToeBhE88",
+
+      "https://youtu.be/M5ajdszx0q8?t=3136",
+    ];
+    // const playList = async () => {
+    //   const req = await fetch(
+    //     `https://www.googleapis.com/youtube/v3/playlistItems?playlistId=${`PLrNhO2iPYVJXIBGwlwVXJHo4cEi4qlfa5`}&key=AIzaSyBoQ6N3fthUF2I6doUZUGPHkgInx_NYf-4&part=snippet&maxResults=50&pageToken=EAAaB1BUOkNKWUI`
+    //   );
+    //   const vids = await req.json();
+    //   vids.items.forEach((video) => {
+    //     data.push(video.snippet);
+    //   });
+    //   console.log(data);
+    //   console.log(vids);
+    //   //data.push({ video: { info: vids.items[0].snippet, link: item } });
+    // };
+
+    array.forEach(async (item) => {
+      const iid = item.split("be/")[1];
+      const ID = iid.split("?")[0];
+      const req = await fetch(
+        `https://www.googleapis.com/youtube/v3/videos?id=${ID}&key=AIzaSyBoQ6N3fthUF2I6doUZUGPHkgInx_NYf-4&part=snippet`
+      );
+      const vids = await req.json();
+      data.push({ video: { info: vids.items[0].snippet, link: item } });
+      console.log(vids);
+    });
+
+    const sendData = async () => {
+      fetch("/data", {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify(data),
+      });
+    };
+
+    // const sendDataPl = async () => {
+    //   fetch("/data-pl", {
+    //     method: "POST",
+    //     headers: {
+    //       "Content-Type": "application/json",
+    //     },
+    //     body: JSON.stringify(data),
+    //   });
+    // };
+  </script>
+</html>

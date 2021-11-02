@@ -1,0 +1,15 @@
+.wrapperTable {
+  background-color: #f2f2f2;
+  display: flex;
+  width: 100%;
+}
+.wrapperTable div {
+  width: 50%;
+}
+.wrapperTable div > p {
+  border: 1px solid #242424;
+}
+
+.img {
+  width: 5rem;
+}

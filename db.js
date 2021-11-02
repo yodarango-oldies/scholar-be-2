@@ -32,24 +32,40 @@ const podcastSchema = new mongoose.Schema({
 
 const sermonSchema = new mongoose.Schema({
   date: Date,
-  //userId: String, // id of the user uploading it
+  userId: String, // id of the user uploading it
   title: {
     type: String, // title of the sermon
-    maxLength: 60,
+    maxLength: 120,
     trim: true,
   },
   thumbnail: String,
-  preacherId: String,
   addedOnDate: String, // date uploaded
   sermonUrl: String, // file body or url
-  //userAvatar: String, // avatar of the preacher
+  currentRanking: Number,
   categoryTags: [{ type: String, uppercase: true }], // categories of the sermon
   tagColors: [{ type: String, uppercase: true }], // color of backg to be applied
-  //reviews:  and stars were here but have been moved to their own model due to potential size
   description: { type: String, maxLength: 500 }, // description of the message, currently not being used in the FE
 });
 
+const congregationSchema = new mongoose.Schema({
+  date: Date,
+  address: { type: String, lowercase: true, maxLength: 200 },
+  city: { type: String, maxlength: 100 },
+  state: { type: String, uppercase: true },
+  fullState: { type: String, maxLength: 50 },
+  zip: { type: Number, maxlength: 9 },
+  country: { type: String, maxlength: 100 },
+  location: String, // The location url provided by google
+  logo: String,
+  name: String,
+  organization: { type: String, trim: true, maxLength: 200 },
+  schedule: [String],
+  website: { type: String, maxlength: 200, trim: true },
+  iFrame: String, // the iframe link y google so i can frame it
+  addedOnDate: String,
+});
 const Sermon = mongoose.model("Sermon", sermonSchema);
 const Podcast = mongoose.model("Podcast", podcastSchema);
+const Congregation = mongoose.model("Congregation", congregationSchema);
 
-module.exports = { dbConnection, Podcast, Sermon };
+module.exports = { dbConnection, Podcast, Sermon, Congregation };
