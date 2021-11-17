@@ -329,10 +329,10 @@ app.post("/books", (req, res) => {
 
 // ==================== MYSQL =================
 var connection = mysql.createConnection({
-  host: "155.138.212.91",
-  user: "root",
-  password: "welcome123",
-  database: "scholar_dev",
+  host: process.env.IP, //"155.138.212.91",
+  user: process.env.USER, // "root",
+  password: process.env.PASSWORD, //"welcome123",
+  database: process.env.DB,
 });
 
 connection.connect((err) => {
