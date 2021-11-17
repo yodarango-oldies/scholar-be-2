@@ -158,7 +158,7 @@ app.get("/sermon/:id", async (req, res) => {
 // });
 
 app.get("/", (req, res) => {
-  res.render("Hello!");
+  res.send("Hello!");
 });
 
 app.get("/sermons", async (req, res) => {
