@@ -343,8 +343,8 @@ connection.connect((err) => {
 });
 
 app.get("/test-connection", (req, res) => {
-  const sql = `INSERT INTO users (MONGO_DB_ID, first_name, last_name, birth_date, email, password, is_trusted)
-  values('23432', 'dan', 'quo', '09/11/1996', 'dondo@gmla', 'e34r43bfdb', 0);`;
+  const sql = `INSERT INTO users (MONGO_DB_ID, first_name, last_name, email, password, authority_level)
+  VALUES('23432', 'dan', 'quo',  'dondo@gmla', 'e34r43bfdb', 'general');`;
   connection.query(sql, (err, result) => {
     if (err) {
       throw err;
