@@ -157,7 +157,11 @@ app.get("/sermon/:id", async (req, res) => {
 //   });
 // });
 
-app.get("/", async (req, res) => {
+app.get("/", (req, res) => {
+  res.render("Hello!");
+});
+
+app.get("/sermons", async (req, res) => {
   try {
     let sermons = await Sermon.find({
       userId: "6151fe6bd3f6820eba1c8910",
@@ -329,6 +333,7 @@ app.post("/books", (req, res) => {
 // });
 
 // ==================== MYSQL =================
+/*
 var connection = mysql.createConnection({
   host: process.env.IP, //"155.138.212.91",
   user: process.env.DBUSER, // "root",
@@ -357,6 +362,7 @@ app.get("/test-connection", (req, res) => {
 
 console.log(process.env);
 //
+*/
 app.listen(process.env.PORT || 3001, () => {
   console.log("Running safely on port");
 });

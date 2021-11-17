@@ -1,13 +1,10 @@
 const mongoose = require("mongoose");
 const dbConnection = async () => {
   try {
-    await mongoose.connect(
-      "mongodb+srv://test-user:TestPass2*@cluster0.ou7d8.mongodb.net/Library?retryWrites=true&w=majority",
-      {
-        useUnifiedTopology: true,
-        useNewUrlParser: true,
-      }
-    );
+    await mongoose.connect(process.env.MONGO_DB, {
+      useUnifiedTopology: true,
+      useNewUrlParser: true,
+    });
     console.log(`successfully connectedt to cluster`);
   } catch (error) {
     console.error(error);
