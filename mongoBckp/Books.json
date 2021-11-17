@@ -1,0 +1,396 @@
+{
+    "_id" : ObjectId("615207f7b2cb4f0e6d12475a"),
+    "date" : ISODate("2021-09-27T18:05:43.521Z"),
+    "title" : "No Greater Love",
+    "author" : "A. W. Tozer",
+    "categoryTags" : [ 
+        "#RD"
+    ],
+    "tagColors" : [ 
+        "rgb(224, 0, 0)"
+    ],
+    "description" : "God came in the flesh to show us what love looks like. To truly see the dynamics of this love, we must take a close look at Jesus's relationships while he was here on earth. How he loved then is how he loves now, and how he loves now is how we as believers are to love.",
+    "bookUrl" : "https://www.goodreads.com/book/show/50617421-no-greater-love",
+    "addedOnDate" : "8/1/2021 14:5:43",
+    "__v" : 0
+},
+{
+    "_id" : ObjectId("615209a2b2cb4f0e6d12475d"),
+    "date" : ISODate("2021-09-27T18:12:50.474Z"),
+    "title" : "God in the Dock: Essays on Theology and Ethics",
+    "author" : "C. S. lewis",
+    "categoryTags" : [ 
+        "#CYN"
+    ],
+    "tagColors" : [ 
+        "rgb(50, 190, 167)"
+    ],
+    "description" : "Characterized by Lewis's honesty and realism, his insight and conviction, and above all his thoroughgoing commitments to Christianity, these essays make God in the Dock very much a book for our time.",
+    "bookUrl" : "https://www.goodreads.com/book/show/111563.God_in_the_Dock",
+    "addedOnDate" : "8/1/2021 14:12:50",
+    "__v" : 0
+},
+{
+    "_id" : ObjectId("61521546665ea781d3745cd9"),
+    "date" : ISODate("2021-09-27T19:02:30.624Z"),
+    "title" : "The Everlasting Man",
+    "author" : "G.K. Chesterton",
+    "categoryTags" : [ 
+        "#CYN"
+    ],
+    "tagColors" : [ 
+        "rgb(50, 190, 167)"
+    ],
+    "description" : "What, if anything, is it that makes the human uniquely human? This, in part, is the question that G.K. Chesterton starts with in this classic exploration of human history. Responding to the evolutionary materialism of his contemporary (and antagonist) H.G. Wells, Chesterton in this work affirms human uniqueness and the unique message of the Christian faith",
+    "bookUrl" : "https://www.goodreads.com/book/show/112760.The_Everlasting_Man",
+    "addedOnDate" : "8/1/2021 15:2:30",
+    "__v" : 0
+},
+{
+    "_id" : ObjectId("6152159a665ea781d3745cdb"),
+    "date" : ISODate("2021-09-27T19:03:54.371Z"),
+    "title" : "God Loves You: He Always Has--He Always Will",
+    "author" : "David Jeremiah",
+    "categoryTags" : [ 
+        "#RD"
+    ],
+    "tagColors" : [ 
+        "rgb(224, 0, 0)"
+    ],
+    "description" : "What, if anything, is it that makes the human uniquely human? This, in part, is the question that G.K. Chesterton starts with in this classic exploration of human history. Responding to the evolutionary materialism of his contemporary (and antagonist) H.G. Wells, Chesterton in this work affirms human uniqueness and the unique message of the Christian faith",
+    "bookUrl" : "https://www.goodreads.com/book/show/13526180-god-loves-you",
+    "addedOnDate" : "8/1/2021 15:3:54",
+    "__v" : 0
+},
+{
+    "_id" : ObjectId("61521713665ea781d3745cdd"),
+    "date" : ISODate("2021-09-27T19:10:11.720Z"),
+    "title" : "Fool's Gold?: Discerning Truth in an Age of Error",
+    "author" : "John F. MacArthur Jr., Scott Lang, Phil Johnson, Nathan Busenitz",
+    "categoryTags" : [ 
+        "#BL", 
+        "BR"
+    ],
+    "tagColors" : [ 
+        "rgb(1, 96, 240)", 
+        "rgba(156,102,68)"
+    ],
+    "description" : "In an age of open-mindedness, many believers accept too much with too little discernment, resulting in great confusion and compromise. But God's Word makes it clear that not everything that glitters is gold. False teaching is at every turn, and the temptation to embrace it is great. As God's people we are called to sift through the overwhelming number of traditions and trends and use the truth of Scripture to determine which are the true treasures-and which are fool's gold.",
+    "bookUrl" : "https://www.goodreads.com/book/show/249239.Fool_s_Gold_",
+    "addedOnDate" : "8/1/2021 15:10:11",
+    "__v" : 0
+},
+{
+    "_id" : ObjectId("615217b7665ea781d3745cdf"),
+    "date" : ISODate("2021-09-27T19:12:55.062Z"),
+    "title" : "Dust From the Master's Feet",
+    "author" : "J.H. Osborne",
+    "categoryTags" : [ 
+        "#YLW", 
+        "#GRN"
+    ],
+    "tagColors" : [ 
+        "rgb(255, 174, 0)", 
+        "rgb(21, 158, 2)"
+    ],
+    "description" : "",
+    "bookUrl" : "https://www.goodreads.com/book/show/43152853-dust-from-the-master-s-feet",
+    "addedOnDate" : "8/1/2021 15:12:55",
+    "__v" : 0
+},
+{
+    "_id" : ObjectId("6152184e665ea781d3745ce1"),
+    "date" : ISODate("2021-09-27T19:15:26.777Z"),
+    "title" : "Sacred Marriage: What If God Designed Marriage to Make Us Holy More Than to Make Us Happy?",
+    "author" : "Gary L. Thomas",
+    "categoryTags" : [ 
+        "#PNK"
+    ],
+    "tagColors" : [ 
+        "rgb(255, 84, 170)"
+    ],
+    "description" : "Your marriage is more than a sacred covenant with another person. It is a spiritual discipline designed to help you know God better, trust him more fully, and love him more deeply. What if God s primary intent for your marriage isn t to make you happy . . . but holy?",
+    "bookUrl" : "https://www.goodreads.com/book/show/22574077-sacred-marriage",
+    "addedOnDate" : "8/1/2021 15:15:26",
+    "__v" : 0
+},{
+    "_id" : ObjectId("615219aa665ea781d3745ce3"),
+    "date" : ISODate("2021-09-27T19:21:14.226Z"),
+    "title" : "Straight and Narrow",
+    "author" : "Thomas E. Schmidt",
+    "categoryTags" : [ 
+        "#CYN", 
+        "#GRN"
+    ],
+    "tagColors" : [ 
+        "rgb(50, 190, 167)", 
+        "rgb(21, 158, 2)"
+    ],
+    "description" : "Voted one of Christianity Today's 1996 Books of the Year Too often, Thomas Schmidt writes, the charged battle over homosexuality generates slogans and accusations--obscuring the struggling persons at the center of the argument.",
+    "bookUrl" : "https://www.goodreads.com/book/show/45163.Straight_Narrow_",
+    "addedOnDate" : "8/1/2021 15:21:14",
+    "__v" : 0
+},{
+    "_id" : ObjectId("61521a10665ea781d3745ce5"),
+    "date" : ISODate("2021-09-27T19:22:56.832Z"),
+    "title" : "Hearts of Fire: Eight Women in the Underground Church and Their Stories of Costly Faith",
+    "author" : "The Voice of the Martyrs, Gracia Burnham",
+    "categoryTags" : [ 
+        "#BR"
+    ],
+    "tagColors" : [ 
+        "rgba(156,102,68)"
+    ],
+    "description" : "Tara's father's parting words brought only one thought to the mind of the sixteen-year-old girl—she must escape for her life. Beaten to the brink of death, Tara—the daughter of a prominent Pakistani Muslim—was locked in her room as a prisoner without food or medical attention.",
+    "bookUrl" : "https://www.goodreads.com/book/show/48735879-hearts-of-fire",
+    "addedOnDate" : "8/1/2021 15:22:56",
+    "__v" : 0
+},{
+    "_id" : ObjectId("61521abd665ea781d3745ce7"),
+    "date" : ISODate("2021-09-27T19:25:49.677Z"),
+    "title" : "Discipleship : Living for Christ in the Daily Grind",
+    "author" : "Arnold H. Heinrich",
+    "categoryTags" : [ 
+        "#YLW", 
+        "#GRN"
+    ],
+    "tagColors" : [ 
+        "rgb(255, 174, 0)", 
+        "rgb(21, 158, 2)"
+    ],
+    "description" : "A compilation of letters and writings from a pastor, counseling those who want to live a life of Christian Discipleship. Free .prc for Kindle & .epub versions on this site.",
+    "bookUrl" : "https://www.goodreads.com/book/show/12501778-discipleship",
+    "addedOnDate" : "8/1/2021 15:25:49",
+    "__v" : 0
+},{
+    "_id" : ObjectId("61521b2f665ea781d3745ce9"),
+    "date" : ISODate("2021-09-27T19:27:43.139Z"),
+    "title" : "The Samson Syndrome: What You Can Learn from the Baddest Boy in the Bible",
+    "author" : "Mark Atteberry",
+    "categoryTags" : [ 
+        "#YLW", 
+        "#GRN"
+    ],
+    "tagColors" : [ 
+        "rgb(255, 174, 0)", 
+        "rgb(21, 158, 2)"
+    ],
+    "description" : "The story of Samson is the perfect vehicle to reveal the twelve tendencies that can bring down strong men: disregarding their boundaries, struggling with lust, ignoring good advice, overestimating their own cleverness, and others.",
+    "bookUrl" : "https://www.goodreads.com/book/show/900396.The_Samson_Syndrome",
+    "addedOnDate" : "8/1/2021 15:27:43",
+    "__v" : 0
+},{
+    "_id" : ObjectId("61521c00665ea781d3745cec"),
+    "date" : ISODate("2021-09-27T19:31:12.479Z"),
+    "title" : "Night",
+    "author" : "Elie Wiesel",
+    "categoryTags" : [ 
+        "#BR"
+    ],
+    "tagColors" : [ 
+        "rgba(156,102,68)"
+    ],
+    "description" : "Born in the town of Sighet, Transylvania, Elie Wiesel was a teenager when he and his family were taken from their home in 1944 to Auschwitz concentration camp, and then to Buchenwald. Night is the terrifying record of Elie Wiesel's memories of the death of his family, the death of his own innocence, and his despair as a deeply observant Jew confronting the absolute evil of man.",
+    "bookUrl" : "https://www.goodreads.com/book/show/1617.Night",
+    "addedOnDate" : "8/1/2021 15:31:12",
+    "__v" : 0
+},{
+    "_id" : ObjectId("61521c61665ea781d3745cee"),
+    "date" : ISODate("2021-09-27T19:32:49.706Z"),
+    "title" : "Church History in Plain Language",
+    "author" : "Bruce L. Shelley, Mark A. Noll",
+    "categoryTags" : [ 
+        "#OR"
+    ],
+    "tagColors" : [ 
+        "rgb(50, 190, 167)"
+    ],
+    "description" : "It's about time that someone wrote church history that tells about people, not just about eras and ages. Church History in Plain Language taps the roots of our Christian family tree. It combines authoritative research with a captivating style to bring our heritage home to us.",
+    "bookUrl" : "https://www.goodreads.com/book/show/111596.Church_History_in_Plain_Language",
+    "addedOnDate" : "8/1/2021 15:32:49",
+    "__v" : 0
+},{
+    "_id" : ObjectId("61521cdc665ea781d3745cf0"),
+    "date" : ISODate("2021-09-27T19:34:52.540Z"),
+    "title" : "The Making of a Man of God: Lessons from the Life of David",
+    "author" : "Alan Redpath",
+    "categoryTags" : [ 
+        "#GRN", 
+        "#OR"
+    ],
+    "tagColors" : [ 
+        "rgb(21, 158, 2)", 
+        "rgb(50, 190, 167)"
+    ],
+    "description" : "David was a shepherd and a king, a soldier and a poet, a sinner and a saint. He was also a man after God's own heart. In this Christian classic, Alan Redpath blends insights from 1 and 2 Samuel, 1 Chronicles, and Psalms to demonstrate how God shapes those who are responsive to his love.",
+    "bookUrl" : "https://www.goodreads.com/book/show/924363.The_Making_of_a_Man_of_God",
+    "addedOnDate" : "8/1/2021 15:34:52",
+    "__v" : 0
+},{
+    "_id" : ObjectId("61521d4c665ea781d3745cf2"),
+    "date" : ISODate("2021-09-27T19:36:44.691Z"),
+    "title" : "Heretics",
+    "author" : "G.K. Chesterton",
+    "categoryTags" : [ 
+        "#CYN"
+    ],
+    "tagColors" : [ 
+        "rgb(50, 190, 167)"
+    ],
+    "description" : "G. K. Chesterton, the Prince of Paradox, is at his witty best in this collection of twenty essays and articles from the turn of the twentieth century. Focusing on heretics — those who pride themselves on their superiority to Christian views — Chesterton appraises prominent figures who fall into that category from the literary and art worlds.",
+    "bookUrl" : "https://www.goodreads.com/book/show/612143.Heretics",
+    "addedOnDate" : "8/1/2021 15:36:44",
+    "__v" : 0
+},{
+    "_id" : ObjectId("61521d8b665ea781d3745cf4"),
+    "date" : ISODate("2021-09-27T19:37:47.164Z"),
+    "title" : "Orthodoxy",
+    "author" : "G.K. Chesterton",
+    "categoryTags" : [ 
+        "#CYN"
+    ],
+    "tagColors" : [ 
+        "rgb(50, 190, 167)"
+    ],
+    "description" : "This book is meant to be a companion to Heretics, and to put the positive side in addition to the negative. Many critics complained of the book because it merely criticised current philosophies without offering any alternative philosophy. This book is an attempt to answer the challenge. It is the purpose of the writer to attempt an explanation, not of whether the Christian Faith can be believed, but of how he personally has come to believe it.",
+    "bookUrl" : "https://www.goodreads.com/book/show/87665.Orthodoxy",
+    "addedOnDate" : "8/1/2021 15:37:47",
+    "__v" : 0
+},{
+    "_id" : ObjectId("61521dd9665ea781d3745cf6"),
+    "date" : ISODate("2021-09-27T19:39:05.353Z"),
+    "title" : "50 People Every Christian Should Know: Learning from Spiritual Giants of the Faith",
+    "author" : "Warren W. Wiersbe",
+    "categoryTags" : [ 
+        "#OR"
+    ],
+    "tagColors" : [ 
+        "rgb(247, 99, 0)"
+    ],
+    "description" : "Christians in the twenty-first century need encouragement and inspiration to lead lives that honor God. When faith is weak or the pressures of the world seem overwhelming, remembering the great men and women of the past can inspire us to renewed strength and purpose. Our spiritual struggles are not new, and the stories of those who have gone before us can help lead the way to our own victories.",
+    "bookUrl" : "https://www.goodreads.com/book/show/87665.Orthodoxy",
+    "addedOnDate" : "8/1/2021 15:39:5",
+    "__v" : 0
+},{
+    "_id" : ObjectId("61521e52665ea781d3745cf8"),
+    "date" : ISODate("2021-09-27T19:41:06.003Z"),
+    "title" : "Foxe's Book of Martyrs",
+    "author" : "John Foxe, William Grinton Berry",
+    "categoryTags" : [ 
+        "#OR", 
+        "#BR"
+    ],
+    "tagColors" : [ 
+        "rgb(247, 99, 0)", 
+        "rgba(156,102,68)"
+    ],
+    "description" : "Reformation-era England—John Foxe recounts the lives, sufferings, and triumphant deaths of dozens of Christian martyrs. Some were people of rank and influence. Some were ordinary folk. Some were even his friends. Four centuries later, these deeply moving accounts of faith and courage mark a path for modern Christians to measure the depth of their commitment.",
+    "bookUrl" : "https://www.goodreads.com/book/show/609035.Foxe_s_Book_of_Martyrs",
+    "addedOnDate" : "8/1/2021 15:41:6",
+    "__v" : 0
+},{
+    "_id" : ObjectId("61521eb4665ea781d3745cfa"),
+    "date" : ISODate("2021-09-27T19:42:44.563Z"),
+    "title" : "Jonathan Edwards",
+    "author" : "George M. Marsden",
+    "categoryTags" : [ 
+        "#OR"
+    ],
+    "tagColors" : [ 
+        "rgb(247, 99, 0)"
+    ],
+    "description" : "In this definitive and long-awaited biography, Jonathan Edwards emerges as both a great American and a brilliant Christian. George Marsden evokes the world of colonial New England in which Edwards was reared—a frontier civilization at the center of a conflict between Native Americans, French Catholics, and English Protestants. Drawing on newly available sources, Marsden demonstrates how these cultural and religious battles shaped Edwards’s life and thought.",
+    "bookUrl" : "https://www.goodreads.com/book/show/82624.Jonathan_Edwards",
+    "addedOnDate" : "8/1/2021 15:42:44",
+    "__v" : 0
+},{
+    "_id" : ObjectId("61521f14665ea781d3745cfc"),
+    "date" : ISODate("2021-09-27T19:44:20.705Z"),
+    "title" : "The Pilgrim's Progress",
+    "author" : "John Bunyan",
+    "categoryTags" : [ 
+        "#GRN"
+    ],
+    "tagColors" : [ 
+        "rgb(21, 158, 2)"
+    ],
+    "description" : "This famous story of man's progress through life in search of salvation remains one of the most entertaining allegories of faith ever written. Set against realistic backdrops of town and country, the powerful drama of the pilgrim's trials and temptations follows him in his harrowing journey to the Celestial City.",
+    "bookUrl" : "https://www.goodreads.com/book/show/29797.The_Pilgrim_s_Progress",
+    "addedOnDate" : "8/1/2021 15:44:20",
+    "__v" : 0
+},{
+    "_id" : ObjectId("615220d3665ea781d3745d00"),
+    "date" : ISODate("2021-09-27T19:51:47.660Z"),
+    "title" : "A Grief Observed",
+    "author" : "C. S. Lewis",
+    "categoryTags" : [ 
+        "#CYN"
+    ],
+    "tagColors" : [ 
+        "rgb(50, 190, 167)"
+    ],
+    "description" : "Written with love, humility, and faith, this brief but poignant volume was first published in 1961 and concerns the death of C. S. Lewis's wife, the American-born poet Joy Davidman. In her introduction to this new edition, Madeleine L'Engle writes: I am grateful to Lewis for having the courage to yell, to doubt, to kick at God in angry violence. This is a part of a healthy grief which is not often encouraged.",
+    "bookUrl" : "https://www.goodreads.com/book/show/26077627-a-grief-observed",
+    "addedOnDate" : "8/1/2021 15:51:47",
+    "__v" : 0
+},{
+    "_id" : ObjectId("615220fe665ea781d3745d02"),
+    "date" : ISODate("2021-09-27T19:52:30.051Z"),
+    "title" : "The Problem of Pain",
+    "author" : "C. S. Lewis",
+    "categoryTags" : [ 
+        "#CYN"
+    ],
+    "tagColors" : [ 
+        "rgb(50, 190, 167)"
+    ],
+    "description" : "For centuries Christians have questioned why, if God is good and all-powerful, he allows us to suffer pain. C.S. Lewis sets out to disentangle this knotty issue, but adds that, in the end, no intellectual solution can avoid the need for faith.",
+    "bookUrl" : "https://www.goodreads.com/book/show/13650513-the-problem-of-pain",
+    "addedOnDate" : "8/1/2021 15:52:30",
+    "__v" : 0
+},{
+    "_id" : ObjectId("6152226c665ea781d3745d04"),
+    "date" : ISODate("2021-09-27T19:58:36.256Z"),
+    "title" : "The Great Divorce",
+    "author" : "C. S. Lewis",
+    "categoryTags" : [ 
+        "#CYN"
+    ],
+    "tagColors" : [ 
+        "rgb(50, 190, 167)"
+    ],
+    "description" : "C.S. Lewis’ The Great Divorce is a classic Christian allegorical tale about a bus ride from hell to heaven. An extraordinary meditation upon good and evil, grace and judgment, Lewis’s revolutionary idea in the The Great Divorce is that the gates of Hell are locked from the inside. Using his extraordinary descriptive powers, Lewis’ The Great Divorce will change the way we think about good and evil",
+    "bookUrl" : "https://www.goodreads.com/book/show/25845273-the-great-divorce",
+    "addedOnDate" : "8/1/2021 15:58:36",
+    "__v" : 0
+},{
+    "_id" : ObjectId("61522310665ea781d3745d06"),
+    "date" : ISODate("2021-09-27T20:01:20.201Z"),
+    "title" : "The Screwtape Letters",
+    "author" : "C. S. Lewis",
+    "categoryTags" : [ 
+        "#CYN"
+    ],
+    "tagColors" : [ 
+        "rgb(50, 190, 167)"
+    ],
+    "description" : "The Screwtape Letters by C.S.  Lewis is a classic masterpiece of religious satire that entertains readers with its sly and ironic portrayal of human life and foibles from the vantage point of Screwtape, a highly placed assistant to Our Father Below.",
+    "bookUrl" : "https://www.goodreads.com/book/show/8130077-the-screwtape-letters",
+    "addedOnDate" : "8/1/2021 16:1:20",
+    "__v" : 0
+},{
+    "_id" : ObjectId("61522348665ea781d3745d08"),
+    "date" : ISODate("2021-09-27T20:02:16.372Z"),
+    "title" : "Mere Christianity",
+    "author" : "C. S. Lewis",
+    "categoryTags" : [ 
+        "#CYN"
+    ],
+    "tagColors" : [ 
+        "rgb(50, 190, 167)"
+    ],
+    "description" : "Mere Christianity is C.S. Lewis's forceful and accessible doctrine of Christian belief. First heard as informal radio broadcasts and then published as three separate books - The Case for Christianity, Christian Behavior, and Beyond Personality - Mere Christianity brings together what Lewis saw as the fundamental truths of the religion.",
+    "bookUrl" : "https://www.goodreads.com/book/show/40792344-mere-christianity",
+    "addedOnDate" : "8/1/2021 16:2:16",
+    "__v" : 0
+}

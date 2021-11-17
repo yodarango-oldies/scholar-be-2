@@ -64,8 +64,23 @@ const congregationSchema = new mongoose.Schema({
   iFrame: String, // the iframe link y google so i can frame it
   addedOnDate: String,
 });
+
+const bookSchema = new mongoose.Schema({
+  date: Date,
+  title: { type: String, maxlength: 200, trim: true },
+  author: { type: String, maxlength: 200, trim: true },
+  categoryTags: { type: [String], maxlength: 3, trim: true, uppercase: true },
+  tagColors: { type: [String], trim: true, lowercase: true },
+  description: { type: String, maxlength: 500, trim: true },
+  bookUrl: { type: String, maxlength: 200, trim: true },
+  currentRanking: Number,
+  thumbnail: String,
+  addedOnDate: String,
+});
+
 const Sermon = mongoose.model("Sermon", sermonSchema);
 const Podcast = mongoose.model("Podcast", podcastSchema);
 const Congregation = mongoose.model("Congregation", congregationSchema);
+const Book = mongoose.model("Book", bookSchema);
 
-module.exports = { dbConnection, Podcast, Sermon, Congregation };
+module.exports = { dbConnection, Podcast, Sermon, Congregation, Book };

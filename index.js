@@ -6,7 +6,7 @@ const publicF = path.join(__dirname, "public/images/library/anthony-mangun");
 const express = require("express");
 const cors = require("cors");
 const app = express();
-const { dbConnection, Podcast, Sermon, Congregation } = require("./db");
+const { dbConnection, Podcast, Sermon, Congregation, Book } = require("./db");
 
 const podcast = require("./data/podcast");
 const blogs = require("./data/blogs");
@@ -29,13 +29,17 @@ const sermonsbyJVM = require("./mongoBckp/sermonsbyJVM");
 
 const users = require("./users/users");
 const fullTime = require("./helpers/myTime.js");
+const { application } = require("express");
+const { stringify } = require("querystring");
 
-app.use(express.json());
+app.use(express.json({ limit: "50mb" }));
 app.use(express.static("public"));
+//app.use(express.urlencoded({ limit: "50mb" }));
 
 // Set View's
 app.set("views", "./views");
 app.set("view engine", "ejs");
+const mysql = require("mysql");
 
 app.use(
   cors({
@@ -155,7 +159,7 @@ app.get("/sermon/:id", async (req, res) => {
 app.get("/", async (req, res) => {
   try {
     let sermons = await Sermon.find({
-      userId: "61814fad7da48f62e22723b9",
+      userId: "6151fe6bd3f6820eba1c8910",
     }).sort({ date: 1 });
     // sermons.forEach(async (sermon, index) => {
     //   const firsthalf = sermon.thumbnail.split("library/")[0];
@@ -187,11 +191,11 @@ app.post("/data", async (req, res) => {
   req.body.forEach(async (vid, index) => {
     const newSermon = new Sermon({
       date: Date.now(),
-      userId: "61814fad7da48f62e22723b9",
+      userId: "6151fe6bd3f6820eba1c8910",
       title: vid.video.info.title
-        .replace("Kenneth Carpenter", "")
-        .replace("Carpenter", "")
-        .replace("Kenny", "")
+        .replace("R. C. Sproul", "")
+        .replace("R C", "")
+        .replace("Sproul", "")
         .replace("Rev.", "")
         .replace("Bro.", "")
         .replace(":", "-")
@@ -199,12 +203,12 @@ app.post("/data", async (req, res) => {
         .replace("Pastor", "")
         .replace('"', ""),
       thumbnail:
-        "/images/library/kenneth-carpenter/" +
+        "/images/library/r-c-sproul/" +
         vid.video.info.title
           .replace(":", "-")
-          .replace("Kenneth Carpenter", "")
-          .replace("Carpenter", "")
-          .replace("Kenny", "")
+          .replace("R. C. Sproul", "")
+          .replace("R C", "")
+          .replace("Sproul", "")
           .replace("Rev.", "-")
           .replace("Bro.", "-")
           .replace(":", "-")
@@ -284,6 +288,71 @@ app.post("/data", async (req, res) => {
 //     }
 //   });
 // });
+
+// ==================== INSERT BOOKS =========================== //
+
+app.post("/books", (req, res) => {
+  req.body.forEach(async (book, index) => {
+    const newBook = new Book({
+      date: Date.now(),
+      title: book.volumeInfo.title,
+      author: book.volumeInfo.authors[0],
+      categoryTags: [],
+      tagColors: [],
+      description: book.volumeInfo.description
+        ? `${book.volumeInfo.description.substring(0, 490)}...`
+        : "",
+      bookUrl: book.volumeInfo.previewLink,
+      currentRanking: 0,
+      thumbnail: book.volumeInfo.imageLinks.thumbnail,
+      addedOnDate: fullTime(),
+    });
+
+    try {
+      const book = await newBook.save();
+      console.log(`${index} saved sucessfully!`);
+    } catch (error) {
+      console.log(error);
+    }
+  });
+});
+
+// app.get("/books", async (req, res) => {
+//   const bookss = await Book.find();
+//   bookss.map(async (book) => {
+//     await Book.updateOne(
+//       { _id: book._id },
+//       { $set: { bookUrl: book.bookUrl.split("volumes/")[0] } }
+//     );
+//   });
+// });
+
+// ==================== MYSQL =================
+var connection = mysql.createConnection({
+  host: "155.138.212.91",
+  user: "root",
+  password: "welcome123",
+  database: "scholar_dev",
+});
+
+connection.connect((err) => {
+  if (err) {
+    throw err;
+  }
+  console.log("connected");
+});
+
+app.get("/test-connection", (req, res) => {
+  const sql = `INSERT INTO users (MONGO_DB_ID, first_name, last_name, birth_date, email, password, is_trusted)
+  values('23432', 'dan', 'quo', '09/11/1996', 'dondo@gmla', 'e34r43bfdb', 0);`;
+  connection.query(sql, (err, result) => {
+    if (err) {
+      throw err;
+    }
+    console.log(result);
+    res.send(result);
+  });
+});
 
 app.listen(process.env.PORT || 3001, () => {
   console.log("Running safely on port");

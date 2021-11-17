@@ -11,77 +11,175 @@
     <button onclick="sendDataPl()" style="background-color: green">
       SEND PL
     </button>
+    <button onclick="sendBooks()" style="background-color: pink">
+      SEND PL
+    </button>
   </body>
   <script>
     const data = [];
-
     const array = [
-      "https://youtu.be/zPhNAmA0BXc?t=3137",
-
-      "https://youtu.be/yTSprWGKtUU?t=4192",
-
-      "https://youtu.be/QVK9Qf_XnXg?t=2530",
-
-      "https://youtu.be/ZR17t2cvWag?t=2634",
-
-      "https://youtu.be/B5KdhWrdTgY?t=2434",
-
-      "https://youtu.be/GLiCtzf2eSI?t=3255",
-
-      "https://youtu.be/GXG2F3MLGZI?t=2520",
-
-      "https://youtu.be/ciMV0Cshof0?t=3063",
-
-      "https://youtu.be/QLm9nb0CzGQ?t=2963",
-
-      "https://youtu.be/dy9kkWliXVE?t=3040",
-
-      "https://youtu.be/ZLvJ2s3zoZE?t=3360",
-
-      "https://youtu.be/SPfITntqans?t=3091",
-
-      "https://youtu.be/wk4mPUZwdgg?t=3224",
-
-      "https://youtu.be/NiO6t5O_e-I?t=2990",
-
-      "https://youtu.be/9za5uU2XRII?t=3475",
-
-      "https://youtu.be/ffKB7thbS8k?t=2259",
-
-      "https://youtu.be/JIKssjtXegU?t=3463",
-
-      "https://youtu.be/eSMQUwdjSzc?t=2677",
-
-      "https://youtu.be/clHlCACUUKA?t=3003",
-
-      "https://youtu.be/e83xeS5Ae-g?t=3631",
-
-      "https://youtu.be/PQXwOiMjtWA?t=3485",
-
-      "https://youtu.be/rpDic6YEF7o?t=3097",
-
-      "https://youtu.be/hgSuQOP_2MA?t=3656",
-
-      "https://youtu.be/wOX3m-yBtcQ?t=2915",
-
-      "https://youtu.be/OC2tUiPJFwM?t=3896",
-
-      "https://youtu.be/QBLms5fP3QA?t=1442",
-
-      "https://youtu.be/sMzCGptaaps?t=3458",
-
-      "https://youtu.be/wCENz4MvZfI?t=2318",
-
-      "https://youtu.be/_ygLMKVvQjI?t=3222",
-
-      "https://youtu.be/-VH9AGgpaOI?t=1568",
-
-      "https://youtu.be/9JhIETnFO-I?t=3378",
-
-      "https://youtu.be/usdToeBhE88",
-
-      "https://youtu.be/M5ajdszx0q8?t=3136",
+      // "OF-YSMKCVwMC",
+      // "LGuODwAAQBAJ",
+      // "loE7BAAAQBAJ",
+      // "uhogoENxQhEC",
+      // "nFryoQEACAAJ",
+      // "Zzl1Wyz1nEcC",
+      // "qLhOvbUI30gC",
+      // "_txoCgAAQBAJ",
+      // "Zeotd-ylKtwC",
+      // "Hw33sgEACAAJ",
+      // "_yEpYAAACAAJ",
+      ////
+      // "k7zdAgAAQBAJ",
+      // "8Wx_NAEACAAJ",
+      // "NwtkcgAACAAJ",
+      // "0G4OOQAACAAJ",
+      // "tRDJrQEACAAJ",
+      // "9K3qDwAAQBAJ",
+      // "UxkpvdYikRgC",
+      // "122pvtE_TlMC",
+      // "SeGd_Ry34_MC",
+      // "M7EWrgEACAAJ",
+      // "FmXvNjaTvjAC",
+      // "Sa9BKiADUtwC",
+      ///////
+      // "L_D2GoC-eJIC",
+      // "w48kmK8CrvEC",
+      // "a5ZbngEACAAJ",
+      // "KzbobUhvpf4C",
+      // "KqaXBgAAQBAJ",
+      // "Wd1sPwAACAAJ",
+      // "ReSoAAAACAAJ",
+      // "OsKWCgAAQBAJ",
+      // "omGNswEACAAJ",
+      // "GORvTFsr-ywC",
+      ///
+      // "kQpXAAAAYAAJ",
+      // "ZcMhkJ8a708C",
+      // "TwZgzgEACAAJ",
+      // "EuGhAAAACAAJ",
+      // "8xzUDwAAQBAJ",
+      // "5otsAwAAQBAJ",
+      // "ujmM2udgESgC",
+      // "IkZwQAAACAAJ",
+      // "dhbsoQEACAAJ",
+      // "gSEiwQEACAAJ",
+      // "D4FbCwAAQBAJ",
+      // "phUmAQAAMAAJ",
+      // "KuU9swEACAAJ",
+      // "TiIFMQAACAAJ",
+      // "qfVoAgAACAAJ",
+      // "2xfvrQEACAAJ",
+      // "HTfTwXK38YMC",
+      /////
+      // "UuErHQAACAAJ",
+      // "1UslBQAAQBAJ",
+      // "npi2DwAAQBAJ",
+      // "ySKQtAEACAAJ",
+      // "RqMBQAAQBAJ",
+      // "70EoDwAAQBAJ",
+      // "CM_XDwAAQBAJ",
+      // "JducswEACAAJ",
+      // "C-fywAEACAAJ",
+      // "WNTT_8NW_qwC",
+      // "fUnVhSgwnfUC",
+      // "NETMsgEACAAJ",
+      // "nkOsBQAAQBAJ",
+      //////
+      // "sYc-DwAAQBAJ",
+      // "_UORBQAAQBAJ",
+      // "HIlSswEACAAJ",
+      // "usEBAAAACAAJ",
+      // "PmO5tQEACAAJ",
+      // "epfhDAAAQBAJ",
+      // "0nXYswEACAAJ",
+      // "P3sjvgAACAAJ",
+      // "RnkLtAEACAAJ",
+      // "xg54vgAACAAJ",
+      // "GS0itQEACAAJ",
+      // "a6kGEAAAQBAJ",
+      // "dfXhzQEACAAJ",
+      // "BUJvDAAAQBAJ",
+      //////
+      // "lq92vgAACAAJ",
+      // "AAoszgEACAAJ",
+      // "xWK39TOe5S8C",
+      // "Y3QEDgAAQBAJ",
+      // "YQoJyFlm3A4C",
+      // "I14qrbWESM8C",
+      // "P4qRDwAAQBAJ",
+      // "MY-xg5sQw9oC",
+      // "71TUwAEACAAJ",
+      // "4xUZDQAAQBAJ",
+      // "FeacDwAAQBAJ",
+      // "N6HSDQAAQBAJ",
+      // "hg6X6d0n7NUC",
+      // "BTlrDQAAQBAJ",
+      // "2TNTDwAAQBAJ",
+      // "JE5OtQAACAAJ",
+      ///
+      // "xOoqvgAACAAJ",
+      // "loxLBAAAQBAJ",
+      // "0b10vwEACAAJ",
+      // "Qwp0AwAAQBAJ",
+      // "1lHzjwEACAAJ",
+      // "dw8_CgAAQBAJ",
+      // "FGaXuAAACAAJ",
+      // "CVGoDwAAQBAJ",
+      // "_KqYeOcXiq4C",
+      // "kE2k36XAkv4C",
+      // "YHPcDAAAQBAJ",
+      // "vEanzQEACAAJ",
+      // "Yek4YWTZFjgC",
+      // "TbC8AAAAQBAJ",
+      // "0-o2vQEACAAJ",
+      ////
+      // "VuznjgEACAAJ",
+      // "hsDGAwAAQBAJ",
+      // "fG1yQgAACAAJ",
+      // "qYOXBQAAQBAJ",
+      // "wt-z-c-xHsoC",
+      // "8nRJDwAAQBAJ",
+      // "ASTCAAAAQBAJ",
+      // "pdsjQoZx7goC",
+      // "enoUAQAAIAAJ",
+      // "LStFea4gbmkC",
+      // "Pzigv2umDpEC",
+      // "cC4uAgAAQBAJ",
+      // "YOJhCAAAQBAJ",
+      // "BR1yDQAAQBAJ",
+      // "yiDhCQAAQBAJ",
+      // "bP2zBAAAQBAJ",
+      //////
+      // "Q9ny1fVppAEC",
+      // "wWiHoAEACAAJ",
+      // "U5rIPC1UgsgC",
+      // "Q6JZCgAAQBAJ",
+      // "GB7SoQEACAAJ",
+      // "9Mn8CQAAQBAJ",
+      // "mjQAAebtAmEC",
+      // "ebantBj7DxkC",
+      // "JGy2AgAAQBAJ",
+      // "2M6eOAAACAAJ",
+      // "XxgrnwEACAAJ",
+      // "lLqKAgAAQBAJ",
+      // "PtmxxAEACAAJ",
+      // "Dis7jgEACAAJ",
+      //////
+      // "MipHAwAAQBAJ",
+      // "tI-zB0IXUxEC",
+      // "VlWLDgAAQBAJ",
+      // "l5jsAAAACAAJ",
+      // "XQTPDwAAQBAJ",
+      // "XQTPDwAAQBAJ",
+      // "w3zroAEACAAJ",
+      // "LSjNoAEACAAJ",
+      // "XCIaAAAAMAAJ",
+      // "vvlnXwAACAAJ",
+      // "pSJll97sn-sC",
     ];
+
+    console.log(array.length);
     // const playList = async () => {
     //   const req = await fetch(
     //     `https://www.googleapis.com/youtube/v3/playlistItems?playlistId=${`PLrNhO2iPYVJXIBGwlwVXJHo4cEi4qlfa5`}&key=AIzaSyBoQ6N3fthUF2I6doUZUGPHkgInx_NYf-4&part=snippet&maxResults=50&pageToken=EAAaB1BUOkNKWUI`
@@ -95,29 +193,47 @@
     //   //data.push({ video: { info: vids.items[0].snippet, link: item } });
     // };
 
-    array.forEach(async (item) => {
-      const iid = item.split("be/")[1];
-      const ID = iid.split("?")[0];
-      const req = await fetch(
-        `https://www.googleapis.com/youtube/v3/videos?id=${ID}&key=AIzaSyBoQ6N3fthUF2I6doUZUGPHkgInx_NYf-4&part=snippet`
-      );
-      const vids = await req.json();
-      data.push({ video: { info: vids.items[0].snippet, link: item } });
-      console.log(vids);
-    });
+    // array.forEach(async (item, index) => {
+    //   const iid = item.split("be/")[1];
+    //   //const ID = iid.split("?")[0]; if there is time param
+    //   const req = await fetch(
+    //     `https://www.googleapis.com/youtube/v3/videos?id=${iid}&key=AIzaSyBoQ6N3fthUF2I6doUZUGPHkgInx_NYf-4&part=snippet`
+    //   );
+    //   const vids = await req.json();
+    //   data.push({ video: { info: vids.items[0].snippet, link: item } });
+    //   console.log(vids + "for link: " + index);
+    //   console.log(data.length);
+    // });
 
-    const sendData = async () => {
-      fetch("/data", {
-        method: "POST",
-        headers: {
-          "Content-Type": "application/json",
-        },
-        body: JSON.stringify(data),
-      });
-    };
+    // const sendData = async () => {
+    //   fetch("/data", {
+    //     method: "POST",
+    //     headers: {
+    //       "Content-Type": "application/json",
+    //     },
+    //     body: JSON.stringify(data),
+    //   });
+    // };
 
     // const sendDataPl = async () => {
     //   fetch("/data-pl", {
+    //     method: "POST",
+    //     headers: {
+    //       "Content-Type": "application/json",
+    //     },
+    //     body: JSON.stringify(data),
+    //   });
+    // };
+    // array.forEach(async (bookId) => {
+    //   const req = await fetch(
+    //     `https://www.googleapis.com/books/v1/volumes/${bookId}?key=AIzaSyAEpqK0uwBfvOn6RY-5ZNIXugusX-7TUgU`
+    //   );
+    //   const book = await req.json();
+    //   data.push(book);
+    // });
+    // console.log(data);
+    // const sendBooks = async () => {
+    //   const req = await fetch("/books", {
     //     method: "POST",
     //     headers: {
     //       "Content-Type": "application/json",
