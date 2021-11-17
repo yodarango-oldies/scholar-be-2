@@ -1,4 +1,5 @@
 //// NOde js
+require("dotenv").config();
 const path = require("path");
 const fs = require("fs");
 const publicF = path.join(__dirname, "public/images/library/anthony-mangun");
@@ -330,7 +331,7 @@ app.post("/books", (req, res) => {
 // ==================== MYSQL =================
 var connection = mysql.createConnection({
   host: process.env.IP, //"155.138.212.91",
-  user: process.env.USER, // "root",
+  user: process.env.DBUSER, // "root",
   password: process.env.PASSWORD, //"welcome123",
   database: process.env.DB,
 });
@@ -354,6 +355,7 @@ app.get("/test-connection", (req, res) => {
   });
 });
 
+console.log(process.env);
 app.listen(process.env.PORT || 3001, () => {
   console.log("Running safely on port");
 });
