@@ -333,9 +333,9 @@ app.post("/books", (req, res) => {
 // });
 
 // ==================== MYSQL =================
-/*
+
 var connection = mysql.createConnection({
-  host: process.env.IP, //"155.138.212.91",
+  host: process.env.MYSQLIP, //"155.138.212.91",
   user: process.env.DBUSER, // "root",
   password: process.env.DBPASSWORD, //"welcome123",
   database: process.env.DABA,
@@ -362,7 +362,7 @@ app.get("/test-connection", (req, res) => {
 
 console.log(process.env);
 //
-*/
+
 app.listen(process.env.PORT || 3001, () => {
   console.log("Running safely on port");
 });
