@@ -332,8 +332,8 @@ app.post("/books", (req, res) => {
 var connection = mysql.createConnection({
   host: process.env.IP, //"155.138.212.91",
   user: process.env.DBUSER, // "root",
-  password: process.env.PASSWORD, //"welcome123",
-  database: process.env.DB,
+  password: process.env.DBPASSWORD, //"welcome123",
+  database: process.env.DABA,
 });
 
 connection.connect((err) => {
