@@ -1,5 +1,5 @@
 //// NOde js
-//require("dotenv").config();
+require("dotenv").config();
 const path = require("path");
 const fs = require("fs");
 const publicF = path.join(__dirname, "public/images/library/anthony-mangun");
@@ -23,6 +23,7 @@ const user = require("./users/user");
 const story = require("./posts/story");
 const notifications = require("./notifications/notifications");
 const newCongragation = require("./content/create-congregations");
+const locationsJSON = require("./content/locations");
 
 //////  helpers
 const myTime = require("./helpers/myTime.js");
@@ -191,56 +192,60 @@ app.get("/tool", (req, res) => {
   res.render("tool");
 });
 
-app.post("/data", async (req, res) => {
-  console.log(req.body.length);
-  req.body.forEach(async (vid, index) => {
-    const newSermon = new Sermon({
-      date: Date.now(),
-      userId: "6151fe6bd3f6820eba1c8910",
-      title: vid.video.info.title
-        .replace("R. C. Sproul", "")
-        .replace("R C", "")
-        .replace("Sproul", "")
-        .replace("Rev.", "")
-        .replace("Bro.", "")
-        .replace(":", "-")
-        .replace("Bishop", "")
-        .replace("Pastor", "")
-        .replace('"', ""),
-      thumbnail:
-        "/images/library/r-c-sproul/" +
-        vid.video.info.title
-          .replace(":", "-")
-          .replace("R. C. Sproul", "")
-          .replace("R C", "")
-          .replace("Sproul", "")
-          .replace("Rev.", "-")
-          .replace("Bro.", "-")
-          .replace(":", "-")
-          .replace("Bishop", "-")
-          .replace("Pastor", "-")
-          .replace('"', "-")
-          .replace(" ", "-")
-          .replace("?", "")
-          .split(" ")
-          .join("-") +
-        ".png",
-      addedOnDate: fullTime(), // date uploaded
-      sermonUrl: vid.video.link, // file body or url
-      currentRanking: 0,
-      categoryTags: [], // categories of the sermon
-      tagColors: [], // color of backg to be applied
-      description: "",
-    });
-
-    try {
-      await newSermon.save();
-      console.log(index);
-    } catch (error) {
-      console.log(error);
-    }
-  });
+app.get("/locations", (req, res) => {
+  res.render("locations", { locationsJSON });
 });
+
+// app.post("/data", async (req, res) => {
+//   console.log(req.body.length);
+//   req.body.forEach(async (vid, index) => {
+//     const newSermon = new Sermon({
+//       date: Date.now(),
+//       userId: "6151fe6bd3f6820eba1c8910",
+//       title: vid.video.info.title
+//         .replace("R. C. Sproul", "")
+//         .replace("R C", "")
+//         .replace("Sproul", "")
+//         .replace("Rev.", "")
+//         .replace("Bro.", "")
+//         .replace(":", "-")
+//         .replace("Bishop", "")
+//         .replace("Pastor", "")
+//         .replace('"', ""),
+//       thumbnail:
+//         "/images/library/r-c-sproul/" +
+//         vid.video.info.title
+//           .replace(":", "-")
+//           .replace("R. C. Sproul", "")
+//           .replace("R C", "")
+//           .replace("Sproul", "")
+//           .replace("Rev.", "-")
+//           .replace("Bro.", "-")
+//           .replace(":", "-")
+//           .replace("Bishop", "-")
+//           .replace("Pastor", "-")
+//           .replace('"', "-")
+//           .replace(" ", "-")
+//           .replace("?", "")
+//           .split(" ")
+//           .join("-") +
+//         ".png",
+//       addedOnDate: fullTime(), // date uploaded
+//       sermonUrl: vid.video.link, // file body or url
+//       currentRanking: 0,
+//       categoryTags: [], // categories of the sermon
+//       tagColors: [], // color of backg to be applied
+//       description: "",
+//     });
+
+//     try {
+//       await newSermon.save();
+//       console.log(index);
+//     } catch (error) {
+//       console.log(error);
+//     }
+//   });
+// });
 
 // app.post("/data-pl", async (req, res) => {
 //   console.log(req.body.length);
@@ -296,31 +301,31 @@ app.post("/data", async (req, res) => {
 
 // ==================== INSERT BOOKS =========================== //
 
-app.post("/books", (req, res) => {
-  req.body.forEach(async (book, index) => {
-    const newBook = new Book({
-      date: Date.now(),
-      title: book.volumeInfo.title,
-      author: book.volumeInfo.authors[0],
-      categoryTags: [],
-      tagColors: [],
-      description: book.volumeInfo.description
-        ? `${book.volumeInfo.description.substring(0, 490)}...`
-        : "",
-      bookUrl: book.volumeInfo.previewLink,
-      currentRanking: 0,
-      thumbnail: book.volumeInfo.imageLinks.thumbnail,
-      addedOnDate: fullTime(),
-    });
+// app.post("/books", (req, res) => {
+//   req.body.forEach(async (book, index) => {
+//     const newBook = new Book({
+//       date: Date.now(),
+//       title: book.volumeInfo.title,
+//       author: book.volumeInfo.authors[0],
+//       categoryTags: [],
+//       tagColors: [],
+//       description: book.volumeInfo.description
+//         ? `${book.volumeInfo.description.substring(0, 490)}...`
+//         : "",
+//       bookUrl: book.volumeInfo.previewLink,
+//       currentRanking: 0,
+//       thumbnail: book.volumeInfo.imageLinks.thumbnail,
+//       addedOnDate: fullTime(),
+//     });
 
-    try {
-      const book = await newBook.save();
-      console.log(`${index} saved sucessfully!`);
-    } catch (error) {
-      console.log(error);
-    }
-  });
-});
+//     try {
+//       const book = await newBook.save();
+//       console.log(`${index} saved sucessfully!`);
+//     } catch (error) {
+//       console.log(error);
+//     }
+//   });
+// });
 
 // app.get("/books", async (req, res) => {
 //   const bookss = await Book.find();
@@ -334,34 +339,37 @@ app.post("/books", (req, res) => {
 
 // ==================== MYSQL =================
 
-var connection = mysql.createConnection({
-  host: process.env.MYSQLIP, //"155.138.212.91",
-  user: process.env.DBUSER, // "root",
-  password: process.env.DBPASSWORD, //"welcome123",
-  database: process.env.DABA,
-});
+// const pool = mysql.createPool({
+//   connectionLimit: 100,
+//   host: process.env.MYSQL_VPS_IP,
+//   user: process.env.MYSQL_DB_USER,
+//   password: process.env.MYSQL_DB_PASSWORD,
+//   database: process.env.MYSQL_DATABASE,
+// });
 
-connection.connect((err) => {
-  if (err) {
-    throw err;
-  }
-  console.log("connected");
-});
+// pool.connect((err) => {
+//   if (err) {
+//     throw err;
+//   }
+//   console.log("connected");
+// });
 
 app.get("/test-connection", (req, res) => {
-  const sql = `INSERT INTO users (MONGO_DB_ID, first_name, last_name, email, password, authority_level)
-  VALUES('23432', 'dan', 'quo',  'dondo@gmla', 'e34r43bfdb', 'general');`;
-  connection.query(sql, (err, result) => {
-    if (err) {
-      throw err;
-    }
-    console.log(result);
-    res.send(result);
+  pool.getConnection((err, connection) => {
+    if (err) throw err;
+    console.log(`successfully connected to ${connection.threadId}`);
+
+    connection.query(
+      "SELECT name, address FROM locations WHERE state = tn ORDER BY name ASC",
+      (err, results) => {
+        connection.release();
+        console.log(`results=${results}`);
+        if (err) throw err;
+        res.send(results);
+      }
+    );
   });
 });
-
-console.log(process.env);
-//
 
 app.listen(process.env.PORT || 3001, () => {
   console.log("Running safely on port");
